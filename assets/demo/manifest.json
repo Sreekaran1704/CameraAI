@@ -1,0 +1,20 @@
+{
+  "version": "public_demo_v1",
+  "license": "CC0-1.0",
+  "source": "PhotoCull deterministic generated illustrations, no real photos",
+  "seed": 170407,
+  "files": [
+    "01-lakeside.jpg",
+    "02-lakeside-copy.jpg",
+    "03-lakeside-reencoded.jpg",
+    "04-camera-pan.jpg",
+    "05-camera-pan.jpg",
+    "06-camera-pan.jpg",
+    "07-golden-hour.jpg",
+    "08-soft-focus.jpg",
+    "09-low-light.jpg",
+    "10-weekend-trip.jpg",
+    "11-weekend-trip.jpg",
+    "12-weekend-trip.jpg"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "phase": 6,
+  "app_version": "0.6.0",
+  "schema": 6,
+  "tests": {
+    "passed": 142,
+    "seconds": 13.75,
+    "phase1_to5_tests": 120,
+    "phase6_cases": 22,
+    "network_denied": true
+  },
+  "ruff_check": "passed",
+  "ruff_format": {
+    "passed": true,
+    "files": 76
+  },
+  "compileall": "passed",
+  "pip_check": "passed",
+  "audit": {
+    "registry_dependencies_checked": 87,
+    "editable_skipped": 1,
+    "vulnerabilities": 0
+  },
+  "offline": {
+    "originals_checked": 488,
+    "originals_unchanged": 488,
+    "known_group_contamination": 0,
+    "human_feedback_written": 0,
+    "preference_model_inference_is_local": true
+  },
+  "evaluation": {
+    "simulated_only": true,
+    "human_labels": 0,
+    "train_families": 24,
+    "holdout_families": 24,
+    "budgets": [
+      10,
+      20,
+      30,
+      50,
+      75,
+      100
+    ],
+    "seeds": [
+      170406,
+      170407,
+      170408
+    ],
+    "a_b_frozen": true,
+    "actual_human_benefit": "unvalidated"
+  },
+  "ui": {
+    "streamlit_apptest": "passed",
+    "browser_preferences": "passed",
+    "cold_start": "0 / 50; inactive",
+    "screenshots": [
+      "phase6-preferences.jpg",
+      "phase6-cold-start.jpg"
+    ],
+    "browser_personalized_fallback": "verified; generic controls disabled; frozen B used"
+  },
+  "phase7_implemented": false,
+  "deployed": false,
+  "git_actions": false
+}

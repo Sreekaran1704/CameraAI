@@ -1,0 +1,19 @@
+{
+  "network_denied": true,
+  "photos_checked": 488,
+  "originals_unchanged": 488,
+  "frozen_ranking_version": "ranking_v1.2",
+  "local_human_feedback_written": 0,
+  "session_only_tie_reset": true,
+  "generic_fallback": true,
+  "known_group_contamination": 0,
+  "candidate_pairs": 2000,
+  "full_train_tune_bootstrap_seconds_144": 0.16797466692514718,
+  "model_fit_persist_seconds_192_feedback": 0.14388083398807794,
+  "model_reload_seconds": 0.006671832990832627,
+  "model_json_bytes": 5361,
+  "isolated_database_bytes_192_feedback": 638976,
+  "empty_schema_database_bytes": 229376,
+  "incremental_preference_bytes": 409600,
+  "isolated_database_includes_schema_overhead": true
+}

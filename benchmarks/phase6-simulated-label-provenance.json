@@ -1,0 +1,11 @@
+{
+  "source": "simulated; no human preference labels",
+  "manifest_sha256": "124f9057761254189d9c56cf21e1ca8f462d13e3e19201a9c4291476ca7c0835",
+  "seed": 170406,
+  "split": "24 development families for training; 24 test families wholly held out",
+  "predefined_taste": "1.2*exposure + .8*colorfulness/255 + .6*brightness - 4*noise_residual_mad/255; unrelated outlier penalty 2",
+  "grades": "top3 grade3, next3 grade2, remaining grade1; highest utility favorite",
+  "images_used": 368,
+  "frozen_phase5_results": "benchmarks/phase5-evaluation.json",
+  "human_labels": 0
+}

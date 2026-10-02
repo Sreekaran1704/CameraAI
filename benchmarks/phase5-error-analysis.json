@@ -1,0 +1,2680 @@
+{
+  "A": {
+    "low_light": [
+      {
+        "family": "test-01",
+        "category": "low_light",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-01-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-07",
+        "category": "low_light",
+        "context": "burst",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-07-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-2-preferred",
+            "test-13-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "intentional_blur": [
+      {
+        "family": "test-02",
+        "category": "intentional_blur",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 1.0,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "favorite_recall": 1.0,
+          "mrr": 1.0,
+          "pairwise_accuracy": 1.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-02-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-2-preferred",
+            "test-08-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-1-preferred",
+            "test-14-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-2-preferred",
+            "test-20-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "bad_outlier_selected": [
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-2-preferred",
+            "test-08-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-2-preferred",
+            "test-11-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-2-preferred",
+            "test-12-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-2-preferred",
+            "test-13-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-1-preferred",
+            "test-14-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-1-preferred",
+            "test-15-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-2-preferred",
+            "test-20-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-0-preferred",
+            "test-23-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "missed_favorites": [
+      {
+        "family": "test-01",
+        "category": "low_light",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-01-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-07",
+        "category": "low_light",
+        "context": "burst",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-07-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-2-preferred",
+            "test-08-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-2-preferred",
+            "test-11-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-2-preferred",
+            "test-12-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-2-preferred",
+            "test-13-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-1-preferred",
+            "test-14-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-1-preferred",
+            "test-15-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-2-preferred",
+            "test-20-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-0-preferred",
+            "test-23-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "context_coverage_underrepresented": [
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-2-preferred",
+            "test-08-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-2-preferred",
+            "test-11-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-2-preferred",
+            "test-12-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-2-preferred",
+            "test-13-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-1-preferred",
+            "test-14-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-1-preferred",
+            "test-15-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-2-preferred",
+            "test-20-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-0-preferred",
+            "test-23-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "duplicate_contamination": [],
+    "emotionally_poor": "Not measurable from abstract fixtures; no real human labels supplied",
+    "visually_boring": "Category rubric is synthetic; does not establish subjective visual interest"
+  },
+  "B": {
+    "low_light": [
+      {
+        "family": "test-01",
+        "category": "low_light",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-01-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-07",
+        "category": "low_light",
+        "context": "burst",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-07-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-0-preferred",
+            "test-13-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "intentional_blur": [
+      {
+        "family": "test-02",
+        "category": "intentional_blur",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 1.0,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "favorite_recall": 1.0,
+          "mrr": 1.0,
+          "pairwise_accuracy": 1.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-02-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-1-preferred",
+            "test-08-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-0-preferred",
+            "test-14-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-0-preferred",
+            "test-20-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "bad_outlier_selected": [
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-1-preferred",
+            "test-08-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-1-preferred",
+            "test-11-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-0-preferred",
+            "test-12-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-0-preferred",
+            "test-13-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-0-preferred",
+            "test-14-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-0-preferred",
+            "test-15-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-0-preferred",
+            "test-20-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-2-preferred",
+            "test-23-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "missed_favorites": [
+      {
+        "family": "test-01",
+        "category": "low_light",
+        "context": "duplicate",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-01-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-07",
+        "category": "low_light",
+        "context": "burst",
+        "k": 1,
+        "metrics": {
+          "ndcg": 0.42857142857142855,
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.3333333333333333,
+          "favorite_recall": 0.0,
+          "mrr": 0,
+          "pairwise_accuracy": 0.0,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 1.0,
+          "selected": [
+            "test-07-0-preferred"
+          ],
+          "outlier_selected": false
+        }
+      },
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-1-preferred",
+            "test-08-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-1-preferred",
+            "test-11-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-0-preferred",
+            "test-12-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-0-preferred",
+            "test-13-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-0-preferred",
+            "test-14-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-0-preferred",
+            "test-15-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-0-preferred",
+            "test-20-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-2-preferred",
+            "test-23-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "context_coverage_underrepresented": [
+      {
+        "family": "test-08",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-08-outlier",
+            "test-08-1-preferred",
+            "test-08-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-09",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-09-outlier",
+            "test-09-1-preferred",
+            "test-09-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-10",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-10-outlier",
+            "test-10-1-preferred",
+            "test-10-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-11",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-11-outlier",
+            "test-11-1-preferred",
+            "test-11-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-12",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-12-outlier",
+            "test-12-0-preferred",
+            "test-12-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-13",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.3615316105681776,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.3333333333333333,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-13-outlier",
+            "test-13-0-preferred",
+            "test-13-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-14",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.39664163797074165,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.3333333333333333,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6216216216216216,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-14-outlier",
+            "test-14-0-preferred",
+            "test-14-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-15",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-15-outlier",
+            "test-15-0-preferred",
+            "test-15-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-16",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-16-outlier",
+            "test-16-1-preferred",
+            "test-16-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-17",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-17-outlier",
+            "test-17-1-preferred",
+            "test-17-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-18",
+        "category": "ordinary",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-18-outlier",
+            "test-18-1-preferred",
+            "test-18-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-19",
+        "category": "low_light",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6486486486486487,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-19-outlier",
+            "test-19-2-preferred",
+            "test-19-1-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-20",
+        "category": "intentional_blur",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.4,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.6756756756756757,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-20-outlier",
+            "test-20-0-preferred",
+            "test-20-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-21",
+        "category": "bad_outlier",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-21-outlier",
+            "test-21-0-preferred",
+            "test-21-2-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-22",
+        "category": "coverage",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-22-outlier",
+            "test-22-2-preferred",
+            "test-22-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      },
+      {
+        "family": "test-23",
+        "category": "boring_center",
+        "context": "event",
+        "k": 3,
+        "metrics": {
+          "ndcg": 0.5307212739772436,
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 0.6666666666666666,
+          "favorite_recall": 0.6666666666666666,
+          "mrr": 0.5,
+          "pairwise_accuracy": 0.8181818181818182,
+          "redundancy_rate": 0.0,
+          "duplicate_contamination": 0.0,
+          "coverage": 0.6666666666666666,
+          "selected": [
+            "test-23-outlier",
+            "test-23-2-preferred",
+            "test-23-0-preferred"
+          ],
+          "outlier_selected": true
+        }
+      }
+    ],
+    "duplicate_contamination": [],
+    "emotionally_poor": "Not measurable from abstract fixtures; no real human labels supplied",
+    "visually_boring": "Category rubric is synthetic; does not establish subjective visual interest"
+  }
+}

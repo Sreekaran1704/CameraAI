@@ -1,0 +1,88 @@
+# All measurements are local. Changing parameters invalidates affected analysis.
+thumbnail_edge = 512
+thumbnail_quality = 85
+max_pixels = 80000000
+
+[quality]
+analysis_edge = 1024
+sharpness_scale = 500.0
+exposure_target = 0.5
+exposure_tolerance = 0.5
+dark_threshold = 16
+bright_threshold = 240
+clipping_low = 1
+clipping_high = 254
+resolution_target_mp = 12.0
+blur_warning_score = 0.15
+exposure_warning_fraction = 0.25
+low_resolution_mp = 1.0
+noise_gradient_limit = 10.0
+noise_sigma = 1.0
+sharpness_weight = 0.40
+exposure_weight = 0.25
+contrast_weight = 0.20
+resolution_weight = 0.15
+
+# Conservative operating point selected on development synthetic_duplicates_v1 only.
+[duplicates]
+phash_distance = 2
+dhash_distance = 8
+ahash_distance = 8
+aspect_log_difference = 0.04
+min_entropy = 3.0
+min_contrast = 25.0
+verification_correlation = 0.999
+chroma_difference = 0.12
+near_capture_window = 60.0
+burst_window = 5.0
+burst_phash_distance = 12
+burst_dhash_distance = 18
+burst_ahash_distance = 16
+burst_correlation = 0.70
+burst_aspect_log_difference = 0.15
+allow_filesystem_bursts = false
+max_candidates_per_photo = 256
+max_comparisons = 100000
+max_group_members = 128
+
+# Phase 3 experimental profiles: selected on development data, rejected as a default
+# because expanded hard-negative precision fell below 97%. Hash-only stays enabled.
+[embeddings]
+model = "disabled"
+device = "cpu"
+batch_size = 16
+cosine_threshold = 0.95
+recovery_enabled = true
+retrieval_neighbors = 16
+retrieval_probes = 8
+moderate_phash = 8
+corroborating_hash = 16
+pixel_floor = 0.90
+aspect_limit = 0.04
+
+[events]
+method = "time"
+model = "disabled"
+gap_minutes = 120.0
+coarse_gap_minutes = 240.0
+max_span_hours = 18.0
+time_weight = 0.3
+visual_weight = 0.7
+epsilon = 0.25
+min_samples = 2
+candidate_neighbors = 64
+hdbscan_window_limit = 256
+pure_visual = false
+
+[ranking]
+variant = "B"
+model = "disabled"
+quality_weight = 0.60
+representation_weight = 0.35
+uniqueness_weight = 0.05
+uniqueness_cap = 0.10
+diversity_penalty = 0.25
+coverage_bonus = 0.05
+quality_floor = 0.20
+neighbor_limit = 32
+burst_quality_weight = 0.70

@@ -1,0 +1,5 @@
+# Public Web Demo dependencies only; no torch, sklearn, secrets or remote APIs.
+Pillow==12.3.0
+numpy==2.5.3
+opencv-python-headless==4.14.0.94
+streamlit==1.64.0

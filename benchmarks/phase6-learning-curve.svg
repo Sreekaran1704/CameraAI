@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" fill="#e7edf1">
+<rect width="1120" height="730" fill="#101a22"/>
+<style>text{font-family:Arial,sans-serif;font-size:13px}.grid{stroke:#35414c;stroke-width:1}</style>
+<text x="45" y="32" font-size="21">PhotoCull Phase 6 · simulated taste learning curves</text>
+<text x="45" y="55">Generated images · three sampling seeds · no human labels · raw within-group scores</text>
+<text x="70" y="90" font-size="17">Pairwise accuracy</text>
+<line class="grid" x1="70" y1="555" x2="370" y2="555"/><text x="35" y="559">0</text>
+<line class="grid" x1="70" y1="445.0" x2="370" y2="445.0"/><text x="35" y="449.0">0.25</text>
+<line class="grid" x1="70" y1="335.0" x2="370" y2="335.0"/><text x="35" y="339.0">0.5</text>
+<line class="grid" x1="70" y1="225.0" x2="370" y2="225.0"/><text x="35" y="229.0">0.75</text>
+<line class="grid" x1="70" y1="115" x2="370" y2="115"/><text x="35" y="119">1</text>
+<text x="60.0" y="580">10</text>
+<text x="120.0" y="580">20</text>
+<text x="180.0" y="580">30</text>
+<text x="240.0" y="580">50</text>
+<text x="300.0" y="580">75</text>
+<text x="360.0" y="580">100</text>
+<polyline points="70.0,259.3010752688172 130.0,259.3010752688172 190.0,259.3010752688172 250.0,259.3010752688172 310.0,259.3010752688172 370.0,259.3010752688172" fill="none" stroke="#c1c6cc" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="70.0,258.1182795698925 130.0,258.1182795698925 190.0,258.1182795698925 250.0,258.1182795698925 310.0,258.1182795698925 370.0,258.1182795698925" fill="none" stroke="#8d98a5" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="70.0,258.1182795698925 130.0,235.25089605734763 190.0,215.53763440860217 250.0,207.84946236559142 310.0,168.62007168458783 370.0,168.42293906810033" fill="none" stroke="#53c8ec" stroke-width="3"/>
+<line x1="70.0" y1="258.1182795698925" x2="70.0" y2="258.1182795698925" stroke="#53c8ec" stroke-width="2"/><circle cx="70.0" cy="258.1182795698925" r="4" fill="#53c8ec"/>
+<line x1="130.0" y1="258.1182795698925" x2="130.0" y2="189.51612903225805" stroke="#53c8ec" stroke-width="2"/><circle cx="130.0" cy="235.25089605734763" r="4" fill="#53c8ec"/>
+<line x1="190.0" y1="258.1182795698925" x2="190.0" y2="158.76344086021507" stroke="#53c8ec" stroke-width="2"/><circle cx="190.0" cy="215.53763440860217" r="4" fill="#53c8ec"/>
+<line x1="250.0" y1="214.35483870967744" x2="250.0" y2="198.38709677419357" stroke="#53c8ec" stroke-width="2"/><circle cx="250.0" cy="207.84946236559142" r="4" fill="#53c8ec"/>
+<line x1="310.0" y1="174.13978494623655" x2="310.0" y2="162.90322580645162" stroke="#53c8ec" stroke-width="2"/><circle cx="310.0" cy="168.62007168458783" r="4" fill="#53c8ec"/>
+<line x1="370.0" y1="173.5483870967742" x2="370.0" y2="163.49462365591398" stroke="#53c8ec" stroke-width="2"/><circle cx="370.0" cy="168.42293906810033" r="4" fill="#53c8ec"/>
+<polyline points="70.0,258.1182795698925 130.0,221.05734767025086 190.0,232.4910394265233 250.0,190.10752688172045 310.0,150.2867383512545 370.0,155.80645161290323" fill="none" stroke="#ffc16a" stroke-width="3"/>
+<line x1="70.0" y1="258.1182795698925" x2="70.0" y2="258.1182795698925" stroke="#ffc16a" stroke-width="2"/><circle cx="70.0" cy="258.1182795698925" r="4" fill="#ffc16a"/>
+<line x1="130.0" y1="258.1182795698925" x2="130.0" y2="196.02150537634407" stroke="#ffc16a" stroke-width="2"/><circle cx="130.0" cy="221.05734767025086" r="4" fill="#ffc16a"/>
+<line x1="190.0" y1="258.1182795698925" x2="190.0" y2="197.7956989247312" stroke="#ffc16a" stroke-width="2"/><circle cx="190.0" cy="232.4910394265233" r="4" fill="#ffc16a"/>
+<line x1="250.0" y1="258.1182795698925" x2="250.0" y2="148.11827956989248" stroke="#ffc16a" stroke-width="2"/><circle cx="250.0" cy="190.10752688172045" r="4" fill="#ffc16a"/>
+<line x1="310.0" y1="164.67741935483872" x2="310.0" y2="135.69892473118279" stroke="#ffc16a" stroke-width="2"/><circle cx="310.0" cy="150.2867383512545" r="4" fill="#ffc16a"/>
+<line x1="370.0" y1="161.72043010752688" x2="370.0" y2="149.89247311827958" stroke="#ffc16a" stroke-width="2"/><circle cx="370.0" cy="155.80645161290323" r="4" fill="#ffc16a"/>
+<text x="100" y="608">Decisive training comparisons</text>
+<text x="425" y="90" font-size="17">NDCG@3</text>
+<line class="grid" x1="425" y1="555" x2="725" y2="555"/><text x="390" y="559">0</text>
+<line class="grid" x1="425" y1="445.0" x2="725" y2="445.0"/><text x="390" y="449.0">0.25</text>
+<line class="grid" x1="425" y1="335.0" x2="725" y2="335.0"/><text x="390" y="339.0">0.5</text>
+<line class="grid" x1="425" y1="225.0" x2="725" y2="225.0"/><text x="390" y="229.0">0.75</text>
+<line class="grid" x1="425" y1="115" x2="725" y2="115"/><text x="390" y="119">1</text>
+<text x="415.0" y="580">10</text>
+<text x="475.0" y="580">20</text>
+<text x="535.0" y="580">30</text>
+<text x="595.0" y="580">50</text>
+<text x="655.0" y="580">75</text>
+<text x="715.0" y="580">100</text>
+<polyline points="425.0,254.5861444738162 485.0,254.5861444738162 545.0,254.5861444738162 605.0,254.5861444738162 665.0,254.5861444738162 725.0,254.5861444738162" fill="none" stroke="#c1c6cc" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="425.0,254.5861444738162 485.0,254.5861444738162 545.0,254.5861444738162 605.0,254.5861444738162 665.0,254.5861444738162 725.0,254.5861444738162" fill="none" stroke="#8d98a5" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="425.0,254.5861444738162 485.0,221.4208693426629 545.0,197.7662589341296 605.0,161.02107445208316 665.0,148.35962293571248 725.0,148.35962293571248" fill="none" stroke="#53c8ec" stroke-width="3"/>
+<line x1="425.0" y1="254.5861444738162" x2="425.0" y2="254.5861444738162" stroke="#53c8ec" stroke-width="2"/><circle cx="425.0" cy="254.5861444738162" r="4" fill="#53c8ec"/>
+<line x1="485.0" y1="254.5861444738162" x2="485.0" y2="155.09031908035638" stroke="#53c8ec" stroke-width="2"/><circle cx="485.0" cy="221.4208693426629" r="4" fill="#53c8ec"/>
+<line x1="545.0" y1="254.5861444738162" x2="545.0" y2="158.71920472916742" stroke="#53c8ec" stroke-width="2"/><circle cx="545.0" cy="197.7662589341296" r="4" fill="#53c8ec"/>
+<line x1="605.0" y1="161.82101522500034" x2="605.0" y2="160.0065724005947" stroke="#53c8ec" stroke-width="2"/><circle cx="605.0" cy="161.02107445208316" r="4" fill="#53c8ec"/>
+<line x1="665.0" y1="153.27587625595086" x2="665.0" y2="143.44336961547407" stroke="#53c8ec" stroke-width="2"/><circle cx="665.0" cy="148.35962293571248" r="4" fill="#53c8ec"/>
+<line x1="725.0" y1="153.27587625595086" x2="725.0" y2="143.44336961547407" stroke="#53c8ec" stroke-width="2"/><circle cx="725.0" cy="148.35962293571248" r="4" fill="#53c8ec"/>
+<polyline points="425.0,254.5861444738162 485.0,190.108906596827 545.0,206.85712914305702 605.0,176.49203606389187 665.0,123.83743936944438 725.0,119.5260003240078" fill="none" stroke="#ffc16a" stroke-width="3"/>
+<line x1="425.0" y1="254.5861444738162" x2="425.0" y2="254.5861444738162" stroke="#ffc16a" stroke-width="2"/><circle cx="425.0" cy="254.5861444738162" r="4" fill="#ffc16a"/>
+<line x1="485.0" y1="254.5861444738162" x2="485.0" y2="153.27587625595086" stroke="#ffc16a" stroke-width="2"/><circle cx="485.0" cy="190.108906596827" r="4" fill="#ffc16a"/>
+<line x1="545.0" y1="254.5861444738162" x2="545.0" y2="162.46469906071397" stroke="#ffc16a" stroke-width="2"/><circle cx="545.0" cy="206.85712914305702" r="4" fill="#ffc16a"/>
+<line x1="605.0" y1="254.5861444738162" x2="605.0" y2="124.83250664047685" stroke="#ffc16a" stroke-width="2"/><circle cx="605.0" cy="176.49203606389187" r="4" fill="#ffc16a"/>
+<line x1="665.0" y1="127.9343171363097" x2="665.0" y2="118.10181049583285" stroke="#ffc16a" stroke-width="2"/><circle cx="665.0" cy="123.83743936944438" r="4" fill="#ffc16a"/>
+<line x1="725.0" y1="125.47619047619048" x2="725.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="725.0" cy="119.5260003240078" r="4" fill="#ffc16a"/>
+<text x="455" y="608">Decisive training comparisons</text>
+<text x="780" y="90" font-size="17">Favorite recall@3</text>
+<line class="grid" x1="780" y1="555" x2="1080" y2="555"/><text x="745" y="559">0</text>
+<line class="grid" x1="780" y1="445.0" x2="1080" y2="445.0"/><text x="745" y="449.0">0.25</text>
+<line class="grid" x1="780" y1="335.0" x2="1080" y2="335.0"/><text x="745" y="339.0">0.5</text>
+<line class="grid" x1="780" y1="225.0" x2="1080" y2="225.0"/><text x="745" y="229.0">0.75</text>
+<line class="grid" x1="780" y1="115" x2="1080" y2="115"/><text x="745" y="119">1</text>
+<text x="770.0" y="580">10</text>
+<text x="830.0" y="580">20</text>
+<text x="890.0" y="580">30</text>
+<text x="950.0" y="580">50</text>
+<text x="1010.0" y="580">75</text>
+<text x="1070.0" y="580">100</text>
+<polyline points="780.0,188.33333333333331 840.0,188.33333333333331 900.0,188.33333333333331 960.0,188.33333333333331 1020.0,188.33333333333331 1080.0,188.33333333333331" fill="none" stroke="#c1c6cc" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="780.0,188.33333333333331 840.0,188.33333333333331 900.0,188.33333333333331 960.0,188.33333333333331 1020.0,188.33333333333331 1080.0,188.33333333333331" fill="none" stroke="#8d98a5" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="780.0,188.33333333333331 840.0,188.33333333333331 900.0,163.88888888888886 960.0,145.5555555555556 1020.0,182.22222222222223 1080.0,182.22222222222223" fill="none" stroke="#53c8ec" stroke-width="3"/>
+<line x1="780.0" y1="188.33333333333331" x2="780.0" y2="188.33333333333331" stroke="#53c8ec" stroke-width="2"/><circle cx="780.0" cy="188.33333333333331" r="4" fill="#53c8ec"/>
+<line x1="840.0" y1="188.33333333333331" x2="840.0" y2="188.33333333333331" stroke="#53c8ec" stroke-width="2"/><circle cx="840.0" cy="188.33333333333331" r="4" fill="#53c8ec"/>
+<line x1="900.0" y1="188.33333333333331" x2="900.0" y2="133.33333333333331" stroke="#53c8ec" stroke-width="2"/><circle cx="900.0" cy="163.88888888888886" r="4" fill="#53c8ec"/>
+<line x1="960.0" y1="151.66666666666669" x2="960.0" y2="133.33333333333331" stroke="#53c8ec" stroke-width="2"/><circle cx="960.0" cy="145.5555555555556" r="4" fill="#53c8ec"/>
+<line x1="1020.0" y1="206.66666666666669" x2="1020.0" y2="170.0" stroke="#53c8ec" stroke-width="2"/><circle cx="1020.0" cy="182.22222222222223" r="4" fill="#53c8ec"/>
+<line x1="1080.0" y1="206.66666666666669" x2="1080.0" y2="170.0" stroke="#53c8ec" stroke-width="2"/><circle cx="1080.0" cy="182.22222222222223" r="4" fill="#53c8ec"/>
+<polyline points="780.0,188.33333333333331 840.0,145.5555555555555 900.0,151.66666666666669 960.0,139.4444444444444 1020.0,127.22222222222223 1080.0,127.22222222222223" fill="none" stroke="#ffc16a" stroke-width="3"/>
+<line x1="780.0" y1="188.33333333333331" x2="780.0" y2="188.33333333333331" stroke="#ffc16a" stroke-width="2"/><circle cx="780.0" cy="188.33333333333331" r="4" fill="#ffc16a"/>
+<line x1="840.0" y1="188.33333333333331" x2="840.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="840.0" cy="145.5555555555555" r="4" fill="#ffc16a"/>
+<line x1="900.0" y1="188.33333333333331" x2="900.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="900.0" cy="151.66666666666669" r="4" fill="#ffc16a"/>
+<line x1="960.0" y1="188.33333333333331" x2="960.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="960.0" cy="139.4444444444444" r="4" fill="#ffc16a"/>
+<line x1="1020.0" y1="151.66666666666669" x2="1020.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="1020.0" cy="127.22222222222223" r="4" fill="#ffc16a"/>
+<line x1="1080.0" y1="151.66666666666669" x2="1080.0" y2="115.0" stroke="#ffc16a" stroke-width="2"/><circle cx="1080.0" cy="127.22222222222223" r="4" fill="#ffc16a"/>
+<text x="810" y="608">Decisive training comparisons</text>
+<text x="70" y="650" fill="#53c8ec">C random</text>
+<text x="250" y="650" fill="#ffc16a">C uncertainty</text>
+<text x="470" y="650">A / B dashed baselines</text>
+<text x="70" y="683">Bars show range across three sampling seeds, not confidence intervals.</text>
+<text x="70" y="710">50 is a provisional activation floor; held-out improvement is also required. No guarantee of benefit for this user.</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "listener_ready_seconds": 0.38295229198411107,
+  "method": "Fresh process to HTTP health 200; 50 ms polling",
+  "scope": "HTTP listener only; lazy first-session import excluded",
+  "first_session_import_reference": "phase7-performance.json: web imports"
+}

@@ -1,0 +1,23 @@
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+enableStaticServing = false
+maxUploadSize = 15
+maxMessageSize = 20
+disconnectedSessionTTL = 120
+
+[theme]
+base = "dark"
+primaryColor = "#69D6B0"
+backgroundColor = "#101819"
+secondaryBackgroundColor = "#1C292A"
+textColor = "#EDF6F3"
+font = "sans serif"

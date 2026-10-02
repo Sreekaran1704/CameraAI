@@ -1,0 +1,18 @@
+{
+  "tests": 83,
+  "pytest": "83 passed in 7.74s",
+  "lint": "passed",
+  "format": "36 Python files passed",
+  "compilation": "passed",
+  "pip_check": "no broken requirements",
+  "dependency_audit": "no known vulnerabilities",
+  "offline_real_models": [
+    "mobilenet",
+    "tinyclip"
+  ],
+  "frozen_baseline_content_and_labels_match": true,
+  "recommended_default": "disabled",
+  "phase4_started": false,
+  "originals_modified": false,
+  "git_actions": []
+}

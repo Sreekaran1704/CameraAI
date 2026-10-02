@@ -1,0 +1,78 @@
+{
+  "phase": 4,
+  "app_version": "0.4.0",
+  "tests": {
+    "passed": 110,
+    "failed": 0,
+    "seconds": 10.93,
+    "network": "Python sockets denied by autouse fixture",
+    "previous_phase_tests_preserved": true
+  },
+  "ruff_lint": "passed",
+  "ruff_format": {
+    "passed": true,
+    "files": 41
+  },
+  "compileall": "passed",
+  "pip_check": "No broken requirements found",
+  "security": {
+    "audited": 87,
+    "vulnerabilities": 0,
+    "editable_app_skipped": true
+  },
+  "offline": {
+    "real_models": [
+      "mobilenet",
+      "tinyclip"
+    ],
+    "network_denied": true,
+    "originals_unchanged": 488,
+    "warm_embedding_cache_hit_rate": 1.0
+  },
+  "event_default": {
+    "candidate_neighbors": 64,
+    "coarse_gap_minutes": 240.0,
+    "epsilon": 0.25,
+    "gap_minutes": 120,
+    "hdbscan_window_limit": 256,
+    "max_span_hours": 18.0,
+    "method": "time",
+    "min_samples": 2,
+    "model": "disabled",
+    "pure_visual": false,
+    "time_weight": 0.3,
+    "visual_weight": 0.7
+  },
+  "duplicate_default": "frozen hash-only",
+  "ui": {
+    "AppTest": "passed including rename",
+    "browser": "Events summary, timeline and member cards rendered without errors",
+    "screenshot": "benchmarks/phase4-events.jpg"
+  },
+  "benchmarks": {
+    "dataset_photos": 488,
+    "holdout_photos": 244,
+    "families": 40,
+    "image_sizes": [
+      30,
+      100,
+      500,
+      1000
+    ],
+    "metadata_sizes": [
+      100,
+      500,
+      1000,
+      5000
+    ]
+  },
+  "deployment": false,
+  "stage_commit_push": false,
+  "phase5_started": false,
+  "limitations": [
+    "synthetic event ground truth",
+    "single-run 256px CPU performance",
+    "metadata probe uses 64D preloaded synthetic vectors",
+    "free-hosting feasibility inferred, not tested"
+  ]
+}

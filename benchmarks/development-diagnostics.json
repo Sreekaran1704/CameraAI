@@ -1,0 +1,2162 @@
+{
+  "dataset_version": "synthetic_duplicates_v1",
+  "phash_distance": 6,
+  "development_only": [
+    {
+      "correlation": 0.95,
+      "metrics": {
+        "exact": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "tn": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near": {
+          "tp": 75,
+          "fp": 16,
+          "fn": 9,
+          "tn": 51,
+          "precision": 0.8241758241758241,
+          "recall": 0.8928571428571429,
+          "f1": 0.8571428571428571,
+          "false_positive_rate": 0.23880597014925373
+        },
+        "burst": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near_grouped": {
+          "tp": 71,
+          "fp": 16,
+          "fn": 13,
+          "tn": 51,
+          "precision": 0.8160919540229885,
+          "recall": 0.8452380952380952,
+          "f1": 0.8304093567251462,
+          "false_positive_rate": 0.23880597014925373
+        },
+        "burst_grouped": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 12,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.0
+        }
+      },
+      "false_positives": [
+        {
+          "a": "development-00-burst0",
+          "b": "development-00-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9969587326049805,
+            "chroma_difference": 0.001173168420791626,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-00-burst1",
+          "b": "development-00-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950882792472839,
+            "chroma_difference": 0.0032042264938354492,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-01-burst0",
+          "b": "development-01-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950351119041443,
+            "chroma_difference": 0.004401713609695435,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-01-burst1",
+          "b": "development-01-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 3,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9929609298706055,
+            "chroma_difference": 0.00027063488960266113,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-03-burst0",
+          "b": "development-03-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9759390950202942,
+            "chroma_difference": 0.0027458667755126953,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-03-burst1",
+          "b": "development-03-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 2,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9878503084182739,
+            "chroma_difference": 0.0047972798347473145,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-04-burst0",
+          "b": "development-04-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.993224024772644,
+            "chroma_difference": 0.00041359663009643555,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-04-burst1",
+          "b": "development-04-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 4,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.996994137763977,
+            "chroma_difference": 0.0008832812309265137,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-05-burst0",
+          "b": "development-05-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9971988201141357,
+            "chroma_difference": 0.0023769736289978027,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-05-burst1",
+          "b": "development-05-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9965255260467529,
+            "chroma_difference": 0.0024001002311706543,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-07-burst0",
+          "b": "development-07-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9988231658935547,
+            "chroma_difference": 0.0016390681266784668,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-07-burst1",
+          "b": "development-07-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9973779320716858,
+            "chroma_difference": 0.000172346830368042,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-08-burst0",
+          "b": "development-08-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9896568655967712,
+            "chroma_difference": 0.0025262832641601562,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-08-burst1",
+          "b": "development-08-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9898924827575684,
+            "chroma_difference": 0.003730177879333496,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-10-burst0",
+          "b": "development-10-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 6,
+            "dhash": 4,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9711589813232422,
+            "chroma_difference": 0.003285914659500122,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-10-burst1",
+          "b": "development-10-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.983195424079895,
+            "chroma_difference": 0.004130959510803223,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        }
+      ]
+    },
+    {
+      "correlation": 0.98,
+      "metrics": {
+        "exact": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "tn": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near": {
+          "tp": 70,
+          "fp": 14,
+          "fn": 14,
+          "tn": 53,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334,
+          "false_positive_rate": 0.208955223880597
+        },
+        "burst": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near_grouped": {
+          "tp": 65,
+          "fp": 14,
+          "fn": 19,
+          "tn": 53,
+          "precision": 0.8227848101265823,
+          "recall": 0.7738095238095238,
+          "f1": 0.7975460122699386,
+          "false_positive_rate": 0.208955223880597
+        },
+        "burst_grouped": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 12,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.0
+        }
+      },
+      "false_positives": [
+        {
+          "a": "development-00-burst0",
+          "b": "development-00-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9969587326049805,
+            "chroma_difference": 0.001173168420791626,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-00-burst1",
+          "b": "development-00-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950882792472839,
+            "chroma_difference": 0.0032042264938354492,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-01-burst0",
+          "b": "development-01-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950351119041443,
+            "chroma_difference": 0.004401713609695435,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-01-burst1",
+          "b": "development-01-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 3,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9929609298706055,
+            "chroma_difference": 0.00027063488960266113,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-03-burst1",
+          "b": "development-03-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 2,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9878503084182739,
+            "chroma_difference": 0.0047972798347473145,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-04-burst0",
+          "b": "development-04-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.993224024772644,
+            "chroma_difference": 0.00041359663009643555,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-04-burst1",
+          "b": "development-04-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 4,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.996994137763977,
+            "chroma_difference": 0.0008832812309265137,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-05-burst0",
+          "b": "development-05-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9971988201141357,
+            "chroma_difference": 0.0023769736289978027,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-05-burst1",
+          "b": "development-05-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9965255260467529,
+            "chroma_difference": 0.0024001002311706543,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-07-burst0",
+          "b": "development-07-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9988231658935547,
+            "chroma_difference": 0.0016390681266784668,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-07-burst1",
+          "b": "development-07-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9973779320716858,
+            "chroma_difference": 0.000172346830368042,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-08-burst0",
+          "b": "development-08-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9896568655967712,
+            "chroma_difference": 0.0025262832641601562,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-08-burst1",
+          "b": "development-08-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9898924827575684,
+            "chroma_difference": 0.003730177879333496,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-10-burst1",
+          "b": "development-10-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.983195424079895,
+            "chroma_difference": 0.004130959510803223,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        }
+      ]
+    },
+    {
+      "correlation": 0.99,
+      "metrics": {
+        "exact": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "tn": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near": {
+          "tp": 61,
+          "fp": 10,
+          "fn": 23,
+          "tn": 57,
+          "precision": 0.8591549295774648,
+          "recall": 0.7261904761904762,
+          "f1": 0.7870967741935484,
+          "false_positive_rate": 0.14925373134328357
+        },
+        "burst": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near_grouped": {
+          "tp": 61,
+          "fp": 10,
+          "fn": 23,
+          "tn": 57,
+          "precision": 0.8591549295774648,
+          "recall": 0.7261904761904762,
+          "f1": 0.7870967741935484,
+          "false_positive_rate": 0.14925373134328357
+        },
+        "burst_grouped": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 12,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.0
+        }
+      },
+      "false_positives": [
+        {
+          "a": "development-00-burst0",
+          "b": "development-00-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9969587326049805,
+            "chroma_difference": 0.001173168420791626,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-00-burst1",
+          "b": "development-00-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950882792472839,
+            "chroma_difference": 0.0032042264938354492,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-01-burst0",
+          "b": "development-01-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950351119041443,
+            "chroma_difference": 0.004401713609695435,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-01-burst1",
+          "b": "development-01-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 3,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9929609298706055,
+            "chroma_difference": 0.00027063488960266113,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-04-burst0",
+          "b": "development-04-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.993224024772644,
+            "chroma_difference": 0.00041359663009643555,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-04-burst1",
+          "b": "development-04-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 4,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.996994137763977,
+            "chroma_difference": 0.0008832812309265137,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-05-burst0",
+          "b": "development-05-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9971988201141357,
+            "chroma_difference": 0.0023769736289978027,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-05-burst1",
+          "b": "development-05-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9965255260467529,
+            "chroma_difference": 0.0024001002311706543,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-07-burst0",
+          "b": "development-07-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9988231658935547,
+            "chroma_difference": 0.0016390681266784668,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-07-burst1",
+          "b": "development-07-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9973779320716858,
+            "chroma_difference": 0.000172346830368042,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        }
+      ]
+    },
+    {
+      "correlation": 0.995,
+      "metrics": {
+        "exact": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "tn": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near": {
+          "tp": 60,
+          "fp": 8,
+          "fn": 24,
+          "tn": 59,
+          "precision": 0.8823529411764706,
+          "recall": 0.7142857142857143,
+          "f1": 0.7894736842105263,
+          "false_positive_rate": 0.11940298507462686
+        },
+        "burst": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near_grouped": {
+          "tp": 60,
+          "fp": 6,
+          "fn": 24,
+          "tn": 61,
+          "precision": 0.9090909090909091,
+          "recall": 0.7142857142857143,
+          "f1": 0.8,
+          "false_positive_rate": 0.08955223880597014
+        },
+        "burst_grouped": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 12,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.0
+        }
+      },
+      "false_positives": [
+        {
+          "a": "development-00-burst0",
+          "b": "development-00-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9969587326049805,
+            "chroma_difference": 0.001173168420791626,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-00-burst1",
+          "b": "development-00-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 4,
+            "dhash": 3,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950882792472839,
+            "chroma_difference": 0.0032042264938354492,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": false,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-01-burst0",
+          "b": "development-01-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 1,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9950351119041443,
+            "chroma_difference": 0.004401713609695435,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-04-burst1",
+          "b": "development-04-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 4,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.996994137763977,
+            "chroma_difference": 0.0008832812309265137,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-05-burst0",
+          "b": "development-05-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9971988201141357,
+            "chroma_difference": 0.0023769736289978027,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-05-burst1",
+          "b": "development-05-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 2,
+            "ahash": 0,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9965255260467529,
+            "chroma_difference": 0.0024001002311706543,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": false,
+          "grouped_burst": false
+        },
+        {
+          "a": "development-07-burst0",
+          "b": "development-07-burst1",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 0,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 3.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9988231658935547,
+            "chroma_difference": 0.0016390681266784668,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": true
+        },
+        {
+          "a": "development-07-burst1",
+          "b": "development-07-burst2",
+          "label": "BURST_SAME_MOMENT",
+          "split": "development",
+          "relationship": "NEAR_DUPLICATE",
+          "near": true,
+          "burst": true,
+          "heuristic_reliability": 0.9,
+          "evidence": {
+            "phash": 2,
+            "dhash": 0,
+            "ahash": 1,
+            "aspect_log_difference": 0.0,
+            "dimension_area_ratio": 1.0,
+            "dimensions": [
+              [
+                256,
+                256
+              ],
+              [
+                256,
+                256
+              ]
+            ],
+            "capture_gap_seconds": 4.0,
+            "timestamp_reliability": "exif_timezone",
+            "verification_correlation": 0.9973779320716858,
+            "chroma_difference": 0.000172346830368042,
+            "filename_sequence_gap": 1
+          },
+          "reason": "Strong pHash agreement, corroborating hashes and local pixel verification.",
+          "warnings": [
+            "Reliability scores are heuristic, not calibrated probabilities."
+          ],
+          "grouped_exact": false,
+          "grouped_near": true,
+          "grouped_burst": false
+        }
+      ]
+    },
+    {
+      "correlation": 0.999,
+      "metrics": {
+        "exact": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "tn": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near": {
+          "tp": 60,
+          "fp": 0,
+          "fn": 24,
+          "tn": 67,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333334,
+          "false_positive_rate": 0.0
+        },
+        "burst": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "near_grouped": {
+          "tp": 60,
+          "fp": 0,
+          "fn": 24,
+          "tn": 67,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333334,
+          "false_positive_rate": 0.0
+        },
+        "burst_grouped": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 12,
+          "tn": 127,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.0
+        }
+      },
+      "false_positives": []
+    }
+  ]
+}

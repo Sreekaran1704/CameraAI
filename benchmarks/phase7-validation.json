@@ -1,0 +1,57 @@
+{
+  "application_version": "0.7.0",
+  "tests": {
+    "passed": 155,
+    "previous_tests": 142,
+    "new_web_tests": 13,
+    "seconds": 14.7,
+    "outbound_python_sockets_denied": true
+  },
+  "lint": "passed",
+  "format": {
+    "passed": true,
+    "files": 61
+  },
+  "compilation": "passed",
+  "pip_check": "passed",
+  "dependency_audit": {
+    "installed_packages": 87,
+    "known_vulnerabilities": 0,
+    "evidence": "phase7-dependency-audit.json"
+  },
+  "browser": {
+    "local_startup": true,
+    "web_landing": true,
+    "bundled_demo": true,
+    "shortlist": true,
+    "generated_upload": {
+      "before": 12,
+      "after": 13,
+      "input_cleared": true
+    },
+    "iframe_render": true,
+    "iframe_interaction": "Automation unavailable; public origin check remains",
+    "actual_viewport_width": 662,
+    "page_horizontal_overflow": false,
+    "390px_override": "Browser did not apply requested override"
+  },
+  "lifecycle": {
+    "explicit_clear_tested": true,
+    "expiry_fake_clock_tested": true,
+    "weakref_cleanup_tested": true,
+    "user_temp_files_created": false,
+    "no_repository_or_cache_in_web": true,
+    "session_isolation_tested": true
+  },
+  "performance_evidence": [
+    "phase7-performance.json",
+    "phase7-startup.json"
+  ],
+  "scope": "No public deployment, cloud load test, human accuracy or OS packet capture",
+  "git_actions": {
+    "initialized": false,
+    "staged": false,
+    "committed": false,
+    "pushed": false
+  }
+}

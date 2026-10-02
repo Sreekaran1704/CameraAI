@@ -1,0 +1,86 @@
+{
+  "label_source": "no human labels available",
+  "model": {
+    "active": false,
+    "reason": "Insufficient training feedback or independent groups",
+    "training_comparisons": 0,
+    "minimum": 50,
+    "training_hash": "758fb58ad9842fb86699aa477ed51fefc77289f420a93e3620c99ce333910b53",
+    "trained_at": "2026-10-02T04:06:30.921634+00:00",
+    "version": "personalized_ranking_v1",
+    "feature_version": "preference_features_v1",
+    "excluded_stale_feedback": 0
+  },
+  "feedback_count": 0,
+  "consistency": {
+    "repeated_comparisons": 0,
+    "agreement": null
+  },
+  "curves": [
+    {
+      "strategy": "random",
+      "seed": 170406,
+      "curve": [
+        {
+          "comparisons": 10,
+          "available": false
+        },
+        {
+          "comparisons": 20,
+          "available": false
+        },
+        {
+          "comparisons": 30,
+          "available": false
+        },
+        {
+          "comparisons": 50,
+          "available": false
+        },
+        {
+          "comparisons": 75,
+          "available": false
+        },
+        {
+          "comparisons": 100,
+          "available": false
+        }
+      ],
+      "training_groups": [],
+      "holdout_groups": []
+    },
+    {
+      "strategy": "uncertainty",
+      "seed": 170406,
+      "curve": [
+        {
+          "comparisons": 10,
+          "available": false
+        },
+        {
+          "comparisons": 20,
+          "available": false
+        },
+        {
+          "comparisons": 30,
+          "available": false
+        },
+        {
+          "comparisons": 50,
+          "available": false
+        },
+        {
+          "comparisons": 75,
+          "available": false
+        },
+        {
+          "comparisons": 100,
+          "available": false
+        }
+      ],
+      "training_groups": [],
+      "holdout_groups": []
+    }
+  ],
+  "preference_database_bytes": 17055744
+}

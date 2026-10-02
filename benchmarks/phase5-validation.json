@@ -1,0 +1,35 @@
+{
+  "phase": 5,
+  "version": "0.5.0",
+  "tests": {
+    "passed": 120,
+    "seconds": 11.21,
+    "network_denied": true
+  },
+  "ruff_check": "passed",
+  "ruff_format": {
+    "passed": true,
+    "files": 68
+  },
+  "compileall": "passed",
+  "pip_check": "passed",
+  "dependency_audit": {
+    "registry_dependencies_checked": 87,
+    "vulnerabilities": 0,
+    "editable_project_skipped": 1
+  },
+  "offline_integration": {
+    "photos": 488,
+    "originals_unchanged": 488,
+    "ranking_inference_performed": false,
+    "cached_vector_reuse": 1.0,
+    "known_group_contamination": 0
+  },
+  "ui": {
+    "best_photos": "verified",
+    "screenshot": "phase5-best-photos.jpg"
+  },
+  "phase6_implemented": false,
+  "deployed": false,
+  "git_actions": false
+}

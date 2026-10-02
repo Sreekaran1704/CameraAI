@@ -1,0 +1,5067 @@
+{
+  "version": "ranking_fixture_v2",
+  "families": [
+    {
+      "id": "dev-00",
+      "split": "dev",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "dev-00-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-00-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "dc299367dd1078e866fa5d93f48899d9282047ebf57b76b168c0eff9df65b8b4"
+        },
+        {
+          "id": "dev-00-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-00-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7d359819913c4840c3a7a2cbd42e6f08c33562889d9ffe32eea005494c15396a"
+        },
+        {
+          "id": "dev-00-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-00-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c52e277eb79249b24364ac84f72d0da2b30ca42053872a0c6a8beae5417cc404"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-00-0-preferred",
+            "dev-00-0-soft",
+            "dev-00-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "dev-01",
+      "split": "dev",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "dev-01-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-01-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "44493af811749bc375bf07417e89300821f0028b966c22a7436e718e81c0c2cb"
+        },
+        {
+          "id": "dev-01-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-01-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3e1131cae1a4bcd6a8abf13d51a3bd484d952c8353a8efe0301470f29e44d7ff"
+        },
+        {
+          "id": "dev-01-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-01-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f72fc1433e2192645f3225a634556e7be72ec591d8a022b52d3c97bbf41f66a9"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-01-0-preferred",
+            "dev-01-0-soft",
+            "dev-01-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "dev-02",
+      "split": "dev",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "dev-02-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-02-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e40f83ec4834978118f5d9699f5e38523f32c538041984ed5cd3baf9937d94bb"
+        },
+        {
+          "id": "dev-02-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-02-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fb24f39972f8bea45a35320064a6b3217d663484e9492691c1c7b79daf62469e"
+        },
+        {
+          "id": "dev-02-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-02-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8ecf11844c9d330ff16eed7a739174aafa497bf273b91bbfb4b37ae6afc8bd06"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-02-0-preferred",
+            "dev-02-0-soft",
+            "dev-02-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "dev-03",
+      "split": "dev",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "dev-03-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-03-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2ddaf2a8635856f8218fe7595373cc2cd39bbf1083a25e3b3b14bd5d647b7565"
+        },
+        {
+          "id": "dev-03-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-03-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5d490933ead61205ad51af41257fad4c73d811148da115fff214888ffaf2bb14"
+        },
+        {
+          "id": "dev-03-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-03-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "89f7673474eaf71ccc89767c4d4a20969210cffb6f70d2b4a7e53713d2deb0c3"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-03-0-preferred",
+            "dev-03-0-soft",
+            "dev-03-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "dev-04",
+      "split": "dev",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "dev-04-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-04-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0b5c68b0d0d48ab34d73553197a2869ca556e6c35602e69a103687f7de243317"
+        },
+        {
+          "id": "dev-04-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-04-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0264ceba02749f8544e95aebd5703a35d07e15272733decec596a45923333da4"
+        },
+        {
+          "id": "dev-04-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-04-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6afdceed79147dcd33a7d43e7df189e315d8e94e1dffeaf1fd9880232bba73bc"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-04-0-preferred",
+            "dev-04-0-soft",
+            "dev-04-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "dev-05",
+      "split": "dev",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "dev-05-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-05-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f4dc2c5214108747c26926d20d2461eea40c6c955d1793779dcebfa62218f263"
+        },
+        {
+          "id": "dev-05-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-05-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "49f357ffff006c1249b768e66824ba7a9fbd3555ac5481a65ec1f8be3f77cbcc"
+        },
+        {
+          "id": "dev-05-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-05-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ebb1982554e7a41a5086f12864310ab0a0580a61fd254c24bf9ccb4c2721da44"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-05-0-preferred",
+            "dev-05-0-soft",
+            "dev-05-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "dev-06",
+      "split": "dev",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "dev-06-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-06-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8b9d34fd54a555bb5eb8fb7fd7eedfe95b8b692f90ee5da3c0a8a3c051fb8f3b"
+        },
+        {
+          "id": "dev-06-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-06-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3cb9af1546162f21bc0dec882f36ee2d21623e7c25582ec48f64adbe02b38241"
+        },
+        {
+          "id": "dev-06-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-06-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "089154e721fa9f4d2d99c35f207d3b95374699079ac36ba3267a591ed53f81ce"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-06-0-preferred",
+            "dev-06-0-soft",
+            "dev-06-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "dev-07",
+      "split": "dev",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "dev-07-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-07-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "955c1fc324ca97703aa99dbcfbf958c2f7f909ffe4e5a1622ef549ab2814b88b"
+        },
+        {
+          "id": "dev-07-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-07-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f4e9c2e5c1112e44ea45cac8f4dc162d0dbe57207ec9ba6abc0fde79782b1d72"
+        },
+        {
+          "id": "dev-07-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-07-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b7086b0db6d2e2626a5c9f0513939560ad2ae39a693874a2e29c6e7d75573208"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-07-0-preferred",
+            "dev-07-0-soft",
+            "dev-07-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "dev-08",
+      "split": "dev",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "dev-08-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "96b0a718cfc3558cb55d9d398940957da64bb7f4b5a6188f0169c4faec246012"
+        },
+        {
+          "id": "dev-08-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e5ffb208d2786f472926942ae3aa9d3695fcd84a117bb1de0f0e1d48ddb99473"
+        },
+        {
+          "id": "dev-08-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4eb22322a5622ae7350f6595097456780f1306a25c93d114e29fd46858f98904"
+        },
+        {
+          "id": "dev-08-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "be228da201ca7c876f073492e7795a78da31841918021fa20a547ab955b8377f"
+        },
+        {
+          "id": "dev-08-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "9c9bd7a56c21ac63b3ed1e04c409ee2d1b6314ad42c37dcb07dfe584aaa17690"
+        },
+        {
+          "id": "dev-08-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "467c5eb04808bce2e3e6c92375f23a346224cba2a3bc6469c33768f61d4208ac"
+        },
+        {
+          "id": "dev-08-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3a06db783251c1b0a65ae8f287b39bb86af8dce83adf350cc0f94a04a58fd2b3"
+        },
+        {
+          "id": "dev-08-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "48f2fc19cf9ee30494d2390df97d857dac985c810fe34fab578ad7d9b759ed8b"
+        },
+        {
+          "id": "dev-08-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a3518fc85db6aefae0288fdfc38fc503f2abf056fa374bfb4798a6c9b02a1d92"
+        },
+        {
+          "id": "dev-08-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-08-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "80e630d3a69b4d1d6c3c6fe0baaf302876a134a25c77e1f624a7a3c3781ad750"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-08-0-preferred",
+            "dev-08-0-soft",
+            "dev-08-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-08-1-preferred",
+            "dev-08-1-soft",
+            "dev-08-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-08-2-preferred",
+            "dev-08-2-soft",
+            "dev-08-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-09",
+      "split": "dev",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "dev-09-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "abaa379d3018f5296f8c717223f89ea30e02e9dd64d2d244eb310460dd7cbfa3"
+        },
+        {
+          "id": "dev-09-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "25bfca8c0340f57ac8aa08d40a1d53c14f82686c1b7bdc1bd15561581ee253db"
+        },
+        {
+          "id": "dev-09-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3dfee56646e6be9be55c4f56da1aa29c5fb0bb2fb9793a3f664623fe3b02a8ea"
+        },
+        {
+          "id": "dev-09-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f120ee13c11f2252728240e2771f0a8e3e6b0feb0d1debdb861025eee570cc84"
+        },
+        {
+          "id": "dev-09-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "be9d838aeb3fd633afbaf7cb58d1e906cb421cddddb164d25860a45219b1610b"
+        },
+        {
+          "id": "dev-09-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b561572aa839397478113e7911a2099711b4db3d62746b3544e724e41fffc890"
+        },
+        {
+          "id": "dev-09-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "04d382a76177bd1ba59e8cc42417d0a2641fd5b535940b8a6cdd717959c00449"
+        },
+        {
+          "id": "dev-09-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a90f30229ea9d92a69494ff4ef821146c8018f79cbc01f730c15c745c3fc8e08"
+        },
+        {
+          "id": "dev-09-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "10e5b93ef356b7dd89f3adf13bd1f49645d7522f6875175dd338befa04c54911"
+        },
+        {
+          "id": "dev-09-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-09-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "30bbc071f7a9c0b28f3faf10969a69a92710acb239cc3c3ef057bcd504772690"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-09-0-preferred",
+            "dev-09-0-soft",
+            "dev-09-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-09-1-preferred",
+            "dev-09-1-soft",
+            "dev-09-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-09-2-preferred",
+            "dev-09-2-soft",
+            "dev-09-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-10",
+      "split": "dev",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "dev-10-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "efc338305a87757e3b50c455e2aae15b9fb3a731bd5cd78e28b955a2440ee3b3"
+        },
+        {
+          "id": "dev-10-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1a94cb4bff023647358623d13dbb5018c91fda2eb3168165f35ff49cb452497c"
+        },
+        {
+          "id": "dev-10-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fa91122956322dd18bf16393fae104cea4c737cf9787b49a85a2bd064b266c11"
+        },
+        {
+          "id": "dev-10-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c20931f10ca1e975e77ef8b552b160748fe7cf2efd90bccccb0f4835a27449c6"
+        },
+        {
+          "id": "dev-10-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f5854eba2d1cd2a9126164bfed2aeb26348053110a05bf49a85035ef4481c805"
+        },
+        {
+          "id": "dev-10-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c68d2b4200c293646281f0f982d6aad28ed637b9076300ab30f3855d5ccd1b33"
+        },
+        {
+          "id": "dev-10-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6297a5e6746f806c43e162ef1f0022d7118a66f2046816d419af2660daebc6d6"
+        },
+        {
+          "id": "dev-10-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3d648a9816a09959ea299903bc402c16a325aac94f01c4fc16adc73ce5144786"
+        },
+        {
+          "id": "dev-10-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cdb626ba44e8906d211adab3f0dda522b15eb15e8218083f0faae46c7c085467"
+        },
+        {
+          "id": "dev-10-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-10-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "6cff65278f396d7928a1b1d20ae1b18b6fdb16fdc747b65306299b53525e8689"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-10-0-preferred",
+            "dev-10-0-soft",
+            "dev-10-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-10-1-preferred",
+            "dev-10-1-soft",
+            "dev-10-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-10-2-preferred",
+            "dev-10-2-soft",
+            "dev-10-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-11",
+      "split": "dev",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "dev-11-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "384027a5fa06e684e5c6c6864e94b99042a046f760ba7777bfbeedbff4ae2202"
+        },
+        {
+          "id": "dev-11-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "898fe6a7f9a44c35c8f791fdd303e70dd1f53fc69ce80cd8d506f21f436888f7"
+        },
+        {
+          "id": "dev-11-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c4291d92ca73455078bf7788d00505f31125c83da8b4bfee4390d531548a0a9a"
+        },
+        {
+          "id": "dev-11-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e90a6a65081463c8b00d4660c97225ab37314fa22a817003f21c08f6abc8005d"
+        },
+        {
+          "id": "dev-11-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8b77eaadf0604929286a33b09a8c6147f81f455c98862880144aba8008632f1d"
+        },
+        {
+          "id": "dev-11-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "57af2ce1d1a07d3c1b0ef39c99d5c3c43d27d204b6be27c99809ed6ed1b47190"
+        },
+        {
+          "id": "dev-11-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bd5e10d730be4060844ae5c86dcc2d022a45e9378691a1605d79616d823a1f63"
+        },
+        {
+          "id": "dev-11-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "82f5140325e0ab867e25e5cd5bc220d2e7b65fb332eafddd7e34a3561a07d260"
+        },
+        {
+          "id": "dev-11-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cbf868afc27e5843364a65b5d7c9d197de4c9321cd1aa9e1c349bc42de58f953"
+        },
+        {
+          "id": "dev-11-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-11-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "a354f4ce3763d372dea312b7484d42ee581177dedd341aec97bcfa426b83c41c"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-11-0-preferred",
+            "dev-11-0-soft",
+            "dev-11-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-11-1-preferred",
+            "dev-11-1-soft",
+            "dev-11-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-11-2-preferred",
+            "dev-11-2-soft",
+            "dev-11-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-12",
+      "split": "dev",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "dev-12-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e05f719e75736fb85fe03dc0ee61523dffdde8ec63dc722984c91d92810ca8a2"
+        },
+        {
+          "id": "dev-12-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "85be9dc0c14f429a01b5e23303c7c15a0bc09508b3d23a7d9826ecaec94de20e"
+        },
+        {
+          "id": "dev-12-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8bdea7693a1bf839f948c59dda3c30b820172e859ec90735e6904f63a8ff1dad"
+        },
+        {
+          "id": "dev-12-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "59fe5f420588716f77e9dc8b44941b65871f58182285f94fe15e5fabf5449408"
+        },
+        {
+          "id": "dev-12-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f35c2a05994eb26da377e43032899091741602977ffcac6c88ba1dbbe16c4488"
+        },
+        {
+          "id": "dev-12-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b98db96e235d279c9ac5f0e5fa66aec5514432905cf063ae4d5b812a2de43ac5"
+        },
+        {
+          "id": "dev-12-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0f9b05685e8ef94e5cca10d088c8a110b657245d92306fab7c4101829f5642fd"
+        },
+        {
+          "id": "dev-12-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5e05aab0c1b113b59d8dfc24dca74fe28dbbea95b4a0b71504ada114e248efc4"
+        },
+        {
+          "id": "dev-12-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "54758cdf4899206d445cf7cf76a6f84a4c88703b771d72f15301a06d9ccb7cb6"
+        },
+        {
+          "id": "dev-12-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-12-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "94d5d7b749c3bdc68b7f019398baa6efa9b79c6696b301d164e271d874b951ec"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-12-0-preferred",
+            "dev-12-0-soft",
+            "dev-12-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-12-1-preferred",
+            "dev-12-1-soft",
+            "dev-12-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-12-2-preferred",
+            "dev-12-2-soft",
+            "dev-12-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-13",
+      "split": "dev",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "dev-13-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b3675129a36c2db616603f298bc1d1018614b580b25a8c0facc5a92098e171a5"
+        },
+        {
+          "id": "dev-13-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7d7809e94a2f4bbbdc0b0c846a02a57cc41d54b1ad66959ed0876a9d0013d85e"
+        },
+        {
+          "id": "dev-13-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2b65aead45a6d3e3b65303cabb3d3e5a5bf59c2ac433a21d07415cf2e3fb6aee"
+        },
+        {
+          "id": "dev-13-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "be5a07e81298a4c6a950ced1a351cedb535c057914137a5b2d1339b3478d2a6b"
+        },
+        {
+          "id": "dev-13-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "05ae53e07ff8a4f63719329d8e002dbed29f1f96a03d91d3048611eaca791049"
+        },
+        {
+          "id": "dev-13-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5eb066b9cfe3fed2fe421957c66fc3e22bac60ff2cff5d4c3b98e24ed16803d1"
+        },
+        {
+          "id": "dev-13-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "87259ae51705b05cbba697c539b2b09cc948ec13b3819a0f209c1b3208c659be"
+        },
+        {
+          "id": "dev-13-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6c88f3888db8b35d787852c02dab7b2a3e739cda79ed790cff4f3e101b19a1a7"
+        },
+        {
+          "id": "dev-13-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8537ece822e5e846d663ad48f57674cc4db0897f99d2d240f08655c4b3b2d068"
+        },
+        {
+          "id": "dev-13-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-13-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "7a6ad6668641484c17404744a2ea6d43e34620224d7353c29a38a4fdb160289e"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-13-0-preferred",
+            "dev-13-0-soft",
+            "dev-13-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-13-1-preferred",
+            "dev-13-1-soft",
+            "dev-13-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-13-2-preferred",
+            "dev-13-2-soft",
+            "dev-13-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-14",
+      "split": "dev",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "dev-14-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c07b4db1f5c9dd8e69aee75c5e62f4d88c5472f7859d5eeb12deff0a7ab32256"
+        },
+        {
+          "id": "dev-14-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3071ec3731ed9fba099d62a9f843d94de2ed464b3015b08f82a64eaa5f7a47dd"
+        },
+        {
+          "id": "dev-14-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "248b73f906294c568a5a60573d0efcf11d8188131fa06e3afed4339b6fc1ccc9"
+        },
+        {
+          "id": "dev-14-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ac53f2a9cd301bd515f2f9c01ac7df35a91be46b9fb26e22ccd54b7c407d43a4"
+        },
+        {
+          "id": "dev-14-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8e7ebb44b269739caa7936ea1be425f2bb1123d8f3c02e0a1baf5abff4acbcc2"
+        },
+        {
+          "id": "dev-14-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "585fd45bc771af38b21237844910641c149aa52eef10f3b24059e9af1f07362f"
+        },
+        {
+          "id": "dev-14-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a327a6df789b0c4e95e2c3d984879a7db6f8a5412f62e1240f99abc982ae44ef"
+        },
+        {
+          "id": "dev-14-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "46ecdc1daff6f1adf0d4710e02139714e8cbbe1e8cd31ab46028e08a18174179"
+        },
+        {
+          "id": "dev-14-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a4af98294711dc728ac7d0f2671b404f4243338c29ebcbd677d7a4b5448cbc6d"
+        },
+        {
+          "id": "dev-14-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-14-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "41213ea9a0107d29aac4ab70057e60c084bd7089133afb62e626828fd36fe9da"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-14-0-preferred",
+            "dev-14-0-soft",
+            "dev-14-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-14-1-preferred",
+            "dev-14-1-soft",
+            "dev-14-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-14-2-preferred",
+            "dev-14-2-soft",
+            "dev-14-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-15",
+      "split": "dev",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "dev-15-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "154d4d643082587e4e66b1d4693d276e12e9070d99aa4a601eb423d7f04ca6f6"
+        },
+        {
+          "id": "dev-15-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6bf30e9029f40253d35d6fa7ddfdddc764a6af671046f4396fbb796b6cf532df"
+        },
+        {
+          "id": "dev-15-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4dc791e872bb84d695efe1602aa9c003dc7be3f7d4db14c1b0c9f7094138ee78"
+        },
+        {
+          "id": "dev-15-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "614a452af730d48532ab37e89e64c063d52d8621eef065f9081fba10bbb5020e"
+        },
+        {
+          "id": "dev-15-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e336af2a551c21d0e784b90aa8cf7ff97ba41a86941daf285aedd2240fc4ff34"
+        },
+        {
+          "id": "dev-15-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7961152ac1c1fd8f769e0d916a813a1b1a0591d26c26a9ef87a7aa0fc25c6ad1"
+        },
+        {
+          "id": "dev-15-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5983e9cfb6214bdd8444a2528844483f34ed890fe83765ac36fed4bd4051e334"
+        },
+        {
+          "id": "dev-15-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "938c4618de92e7224184b14cb4107749645a7a44c5905733b2c1c094c10ea883"
+        },
+        {
+          "id": "dev-15-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bf19095bcb118cf4360bc4f224dd9c62dcadfdf98fcae6fbb8e707046254e4d0"
+        },
+        {
+          "id": "dev-15-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-15-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "b4ce495d090f7b7afd9da41ef5fc7af6b4bf056cc60b2029a07c1b1853afe99e"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-15-0-preferred",
+            "dev-15-0-soft",
+            "dev-15-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-15-1-preferred",
+            "dev-15-1-soft",
+            "dev-15-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-15-2-preferred",
+            "dev-15-2-soft",
+            "dev-15-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-16",
+      "split": "dev",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "dev-16-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a48d317248db08b9f0ce6f8bf3051b5f4d271e8cb0e8c51f5acb97a05208d759"
+        },
+        {
+          "id": "dev-16-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fad97ed393c9c86365d45e6ea1441213fe95128c1373a9e30a0cfe340284fe30"
+        },
+        {
+          "id": "dev-16-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "86b594e18d87fc6dfa30543b90dd8e08250447351a1ed6146e7306c0d238f5d6"
+        },
+        {
+          "id": "dev-16-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "88972d1163487c95aad9a3773ad7775cd724fada400e41614e7bc633826529ab"
+        },
+        {
+          "id": "dev-16-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "9a281828b2a0d46d41c79f8d4e11c05a5747293ab28d4482c92a8d231eaeb32b"
+        },
+        {
+          "id": "dev-16-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "dcffb22745e834e9ba2ba43609d75ed0a511da47106429eb172aa09895c0bfee"
+        },
+        {
+          "id": "dev-16-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bbdb1c6cf75a721ea3285ec3b14d09771c6886b1d4b3fd84a47de1e8dd09ce21"
+        },
+        {
+          "id": "dev-16-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "521f058f812c6d9ded3b02916c41d986f1e074459b11a1595d166ac2d1adfd8f"
+        },
+        {
+          "id": "dev-16-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cf988322de6a66aead2f4ef3c04f6b94b0c9fec00442bc366179ef62484ba460"
+        },
+        {
+          "id": "dev-16-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-16-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "cefe29adc7f7a3fb5d61c9bde8903e4f77e052a69a080fb843bb3507cef08243"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-16-0-preferred",
+            "dev-16-0-soft",
+            "dev-16-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-16-1-preferred",
+            "dev-16-1-soft",
+            "dev-16-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-16-2-preferred",
+            "dev-16-2-soft",
+            "dev-16-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-17",
+      "split": "dev",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "dev-17-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3e63cd7dc68ee595a56bec60faf5460ee730b82ed1cd4c7e4265681173cb70ab"
+        },
+        {
+          "id": "dev-17-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "75129ce4a5a4ac363cdbc4b360b66b437b757f7771346832fdf59fd7ea798cae"
+        },
+        {
+          "id": "dev-17-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fdf4f2cbeda1159fe269d0ec3fcb6ac34b459a7642b9d19a0abb33fa53f3b2fb"
+        },
+        {
+          "id": "dev-17-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "795668bd720a174ee6c2cd533e57f006c5f54beca1bab1d12dfcc2d78392d7c1"
+        },
+        {
+          "id": "dev-17-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0b2e6a397f8b5bb27e80d797931944d62969183b62c71ffee337caecfba889e7"
+        },
+        {
+          "id": "dev-17-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "346c107b1ebe9b9914a54523a8ff6f67f96080e031fe9217c05ca26c3148da79"
+        },
+        {
+          "id": "dev-17-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7a9e2c2263c7ab34e4e6124537c35b76e9c413e000fd543e9d46e07762267cf0"
+        },
+        {
+          "id": "dev-17-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "812e7dbaf39582b4bf36163c30cc416136f3f1bb748e8406f9a4a80440f01cc7"
+        },
+        {
+          "id": "dev-17-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d236d4091fdd8c35f4e4080c30d35df5022258a4fa58ea1c44c738cf36176d0f"
+        },
+        {
+          "id": "dev-17-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-17-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "420c99a4f665730b338d2c271fa10b32d1ceefa3d47875da7ba41875ef08040d"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-17-0-preferred",
+            "dev-17-0-soft",
+            "dev-17-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-17-1-preferred",
+            "dev-17-1-soft",
+            "dev-17-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-17-2-preferred",
+            "dev-17-2-soft",
+            "dev-17-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-18",
+      "split": "dev",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "dev-18-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "79169f9bc08b8a4f7377a31cb471d79a6e82a285abd8a067540ea59d1b612ec5"
+        },
+        {
+          "id": "dev-18-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "98e285c4d4fc80558e41eab51c3a55cc3e4685720eb04d2db1ef6e4ebe2897bd"
+        },
+        {
+          "id": "dev-18-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8749c355a90ca2f656ba703d298719fc99e4191d640a024efe9f8d5871ef97ed"
+        },
+        {
+          "id": "dev-18-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b9ec970aafdd6ac06a2c10735c02469e841c81a9394260c910ef22721d24f685"
+        },
+        {
+          "id": "dev-18-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b7c0536023d7839fda9f94af63b5f3641f4dbfdf52d1ffdfd0e679e6ec0f3f9c"
+        },
+        {
+          "id": "dev-18-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a32619a566cfc28fd5b4da50a1e29ad824ae1ec4347c30d3c4c0145681436677"
+        },
+        {
+          "id": "dev-18-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2fda1126cd1d7c5daacd239cbe8ef2e934466c80313099de5b14be010843193d"
+        },
+        {
+          "id": "dev-18-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "94e344c7cbe86796f8c51a6ebf113952229efbf34215b1c7587a099d98e0f1b3"
+        },
+        {
+          "id": "dev-18-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1db30f6be0d8a3ba4c1348bc00f979fbbf6d236583fcebfeca524420f7c4f7b5"
+        },
+        {
+          "id": "dev-18-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-18-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "1f733393770e9cfa0acef6d7fe7477ba42138f9cc5397265145447fb40ce0ae7"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-18-0-preferred",
+            "dev-18-0-soft",
+            "dev-18-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-18-1-preferred",
+            "dev-18-1-soft",
+            "dev-18-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-18-2-preferred",
+            "dev-18-2-soft",
+            "dev-18-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-19",
+      "split": "dev",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "dev-19-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "99a94ef44c7cc6f74e1ac7d510e6f86552abe7cc73010a755916506729618b74"
+        },
+        {
+          "id": "dev-19-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5ea6918f83692aea08a9c3c0354aeaa36e26e6418a0dad19c3a56b1d2a53eed8"
+        },
+        {
+          "id": "dev-19-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a49f35386a73db8c9bf8f33b8b501ff78416e2cfce44a82da0a6532ac38b343d"
+        },
+        {
+          "id": "dev-19-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "296ba9457929f98bdf9809b75ef03aba46d474584d4f9d6cb9074fb1f9368a30"
+        },
+        {
+          "id": "dev-19-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d6b470b1b2044c5ab67b5c8053f086bc4948056b81a9be88d3bdf9b2da2e83a0"
+        },
+        {
+          "id": "dev-19-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1c893babbf54efd3485532b46b1b747a4705b7a92c4ddce719828308b75f0e20"
+        },
+        {
+          "id": "dev-19-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "030b5523c56f9a7d67e085d16462d5479935df45f9b83b2da462af59d767e217"
+        },
+        {
+          "id": "dev-19-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1e8018ec0323a638d15f1f4bbee0065bfc0b90abdceadbda7ed7d6fe3245f18e"
+        },
+        {
+          "id": "dev-19-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c657c6cbeb8a2e91ea25c687b61717509825e3d616d74bd37f114df3d32ba812"
+        },
+        {
+          "id": "dev-19-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-19-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "ff9a8376653495d88578982e0ef59c6be1a9475cffc75d280013d10793a3c4fc"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-19-0-preferred",
+            "dev-19-0-soft",
+            "dev-19-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-19-1-preferred",
+            "dev-19-1-soft",
+            "dev-19-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-19-2-preferred",
+            "dev-19-2-soft",
+            "dev-19-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-20",
+      "split": "dev",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "dev-20-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e39e5746a9f5ba167d87eb88f1b0c09a00eab4d8a144ac96f9f8be714be0e1e3"
+        },
+        {
+          "id": "dev-20-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bd997040acf7cbe4d8dfb5d6a128a5c9f5865698a68ad911ed245d6cec0a2eb7"
+        },
+        {
+          "id": "dev-20-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1c36daa3d31e93b936f9bdd1d590262d882f9e77a5638c7f7bcca331569b5a88"
+        },
+        {
+          "id": "dev-20-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fc01728c3e0779decfbb4717c0a76ad62f62226df715a3bb9a7f2c240c1ad207"
+        },
+        {
+          "id": "dev-20-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "acf2d9e9be2f7d5187cb884879ed3bda1e6fb8958ecb97ed7a71326697ee1020"
+        },
+        {
+          "id": "dev-20-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "31fce117566530c428d71bd9bef819bbed079eb031c68330a4dfbf3d779adfcc"
+        },
+        {
+          "id": "dev-20-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6567ec7f774c221c95ce1ad4fb2e3583a1fd3550a0d3f0b623c32a66dc1e16a0"
+        },
+        {
+          "id": "dev-20-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0db04b1a15a5d0b2163301d08095fb2dd27a0dc94c390de19f6505357fca33a6"
+        },
+        {
+          "id": "dev-20-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6430b95e4d3f8f10214a1dd6c8a361ac0446fa9d88d182a2fa920d74ea6982c0"
+        },
+        {
+          "id": "dev-20-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-20-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "0740fb489f26133094ab918b38bcd9313b42c0b45f0bbfc7e0d94516ad3f0a96"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-20-0-preferred",
+            "dev-20-0-soft",
+            "dev-20-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-20-1-preferred",
+            "dev-20-1-soft",
+            "dev-20-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-20-2-preferred",
+            "dev-20-2-soft",
+            "dev-20-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-21",
+      "split": "dev",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "dev-21-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6779141853ae1f6c6d70b1262d14d5a415019287b45cd81ee144d2e2fa83f236"
+        },
+        {
+          "id": "dev-21-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "be0cd3f513c385b8c4067f9853c7a1aa2b07c7b1e77c85518f05b26fc6bcab3c"
+        },
+        {
+          "id": "dev-21-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "da2a4c71453e60d4bbd888d85324dba4d97e4e0f432bbfcc91e1fdaf8dbf9981"
+        },
+        {
+          "id": "dev-21-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "97f0c16891b2437805184eed9bb6069b2925bf8c29be81149a3e33690813146a"
+        },
+        {
+          "id": "dev-21-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "39784f0fc81480259235191f7c11d7d24e0c9b50617967444ea21db6cdb8132b"
+        },
+        {
+          "id": "dev-21-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cd8ea13f636f1541c2473b90b13bd46030b0affb037c9dfc6d032f66ab91ab04"
+        },
+        {
+          "id": "dev-21-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e574d5e29713960e44c862e59abdeafdef71470977bb8534266c97d0477d06c9"
+        },
+        {
+          "id": "dev-21-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "41eaaaf8f1a20a6c9cd7d93d0b9385ef3d3f24f165427e5da5054109ec5aea83"
+        },
+        {
+          "id": "dev-21-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "44a7e593c8559d2b09f60849fc71275e039f25f04d3e46271da2ab2d25e5ea52"
+        },
+        {
+          "id": "dev-21-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-21-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "96832229e71321d4567cd7d8578b4afc0f2ce0e8d18f94489ecf7b24df0d9340"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-21-0-preferred",
+            "dev-21-0-soft",
+            "dev-21-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-21-1-preferred",
+            "dev-21-1-soft",
+            "dev-21-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-21-2-preferred",
+            "dev-21-2-soft",
+            "dev-21-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-22",
+      "split": "dev",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "dev-22-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0925a8bf4364751e9b06fd57f645cd7946af6b400da05a7d115ee44acea2b56f"
+        },
+        {
+          "id": "dev-22-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c58c13905b1b0fadee0c07918b5e64735327809675b8d61d13f96640a8ff08f6"
+        },
+        {
+          "id": "dev-22-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "822efca4c1740fa05ba5e14c47aa2a1a1712cd7713e8697781eba7431546ddee"
+        },
+        {
+          "id": "dev-22-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4a8ccee41f295c312b393f8ebeacb8f5ffaf4a0d90bbbc0099ff81cec9687a2e"
+        },
+        {
+          "id": "dev-22-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a90ba6e5df41d187b290df3eea3d4916e1646150a92424d8abb7597273bd1fad"
+        },
+        {
+          "id": "dev-22-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f373248ed08242fe3f07128b950bdca9d6a1074851dadf0457cd13ecc94cf490"
+        },
+        {
+          "id": "dev-22-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "735af16522c7efc7a6874f32168a7c9d5f1f1f069510c4f51dd258284d780f30"
+        },
+        {
+          "id": "dev-22-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "71b90a244e8d95ced365ce7f3c4bf55e42147bf702e344f490917790a984955c"
+        },
+        {
+          "id": "dev-22-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bc87250c1e11cbafce423b0564437a9a53598398b82454c7117d330c489effcc"
+        },
+        {
+          "id": "dev-22-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-22-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "f7a81cc78d0d6e80a783d88b04c62db3d1783001a6c562a94db58521d1a64ce5"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-22-0-preferred",
+            "dev-22-0-soft",
+            "dev-22-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-22-1-preferred",
+            "dev-22-1-soft",
+            "dev-22-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-22-2-preferred",
+            "dev-22-2-soft",
+            "dev-22-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "dev-23",
+      "split": "dev",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "dev-23-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "9da18a1c39d89f0d0919f55d97ed5c9be95eb9784e3e83c27ab78b52806c7d52"
+        },
+        {
+          "id": "dev-23-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "619994d99ebc5229848b892570d95169293e4f95197d3e0a0bdc4cc872decee8"
+        },
+        {
+          "id": "dev-23-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "29e0bac4ae46f494eee2dec691b637f92ba31dfae46a24d1f690c5d9b78a6df3"
+        },
+        {
+          "id": "dev-23-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "406ad6562408dd112512ffefaecce7e7d0e17989d95219caafba220a14f0b4f0"
+        },
+        {
+          "id": "dev-23-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "65556afa37611b79123d2043ae97f894ba620459be378a938620e98ed138877b"
+        },
+        {
+          "id": "dev-23-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1b9e8aa0ba315ef334ca2a55d1a669aeecdc805ab740d5b432c1adad70ecbd71"
+        },
+        {
+          "id": "dev-23-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fd644ae33003d524ac15f10baa56496e0a31b0b63a9d1f044dbcdc87ebc7eff6"
+        },
+        {
+          "id": "dev-23-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ed6cd9bef869ceef41f14ac0ec35b4a1e82a7ccd4111965b15cff41600f2af04"
+        },
+        {
+          "id": "dev-23-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "048fe50b99485d344b176e106aa11d3645c684a870a6f36791ea6fa6dae3baa4"
+        },
+        {
+          "id": "dev-23-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/dev-23-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "661683e0fac1c727b2e5a084978bd094bba52e923c466ccd44b34f9e70027ee4"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-23-0-preferred",
+            "dev-23-0-soft",
+            "dev-23-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-23-1-preferred",
+            "dev-23-1-soft",
+            "dev-23-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "dev-23-2-preferred",
+            "dev-23-2-soft",
+            "dev-23-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-00",
+      "split": "test",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "test-00-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-00-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c805290cd453c345cfc47a3fd1827f14117bbf761a5a726c4ccbfa5e799f62b5"
+        },
+        {
+          "id": "test-00-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-00-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d21dc9c1952a0baa087a74e0faeaf34a83fa7aca3f193a6f4fbc369da68fecb6"
+        },
+        {
+          "id": "test-00-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-00-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "44132393b41c08875d7f3ef511b6c82b5d49f443ded9a6042bbca0cb903e058a"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-00-0-preferred",
+            "test-00-0-soft",
+            "test-00-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "test-01",
+      "split": "test",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "test-01-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-01-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d32b14254dd0d63b465b9ce12978fe6359458e419abf46164498c541f2acb5fa"
+        },
+        {
+          "id": "test-01-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-01-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "048959a5352be8769c1346d2810283d38bb5e0af83ea0afa9bdebe3f09a41d06"
+        },
+        {
+          "id": "test-01-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-01-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "80070c522a234f5523e9bfa0aae216b47147f549fb9188559db71f98bd806b23"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-01-0-preferred",
+            "test-01-0-soft",
+            "test-01-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "test-02",
+      "split": "test",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "test-02-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-02-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a9330fae2b994daa73f4dadea91bd2724c415574cd728819530f3ba4ed1c06e8"
+        },
+        {
+          "id": "test-02-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-02-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bc8cf913323020fa522f018ad3bf0873fcf32c4eab2f4cb2844539f31b9f8f09"
+        },
+        {
+          "id": "test-02-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-02-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b82e798e55ccb79704632f2be1e24f68308607d75fa2f32dbce13d00c3e5d5f1"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-02-0-preferred",
+            "test-02-0-soft",
+            "test-02-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "test-03",
+      "split": "test",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "test-03-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-03-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "300995bff13529caa3f4f648fe58284528b70b157a7a12f3983fdfbfc0eae024"
+        },
+        {
+          "id": "test-03-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-03-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "28530dbf871d6aa130795e8a807e06af76ac96cdf859b589a43376aaba36d330"
+        },
+        {
+          "id": "test-03-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-03-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "29f55f450388eb9ac7c4b2d12f078b1d599c9f9930d1b0212d10632dcb314012"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-03-0-preferred",
+            "test-03-0-soft",
+            "test-03-0-dark"
+          ]
+        }
+      ],
+      "context": "duplicate"
+    },
+    {
+      "id": "test-04",
+      "split": "test",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "test-04-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-04-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5eb05e380dbdb18d566047b8f57f53fa4bcc020d031415773a097c8dfb4b078b"
+        },
+        {
+          "id": "test-04-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-04-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2fa88e03cfee764f1d444ca731097bed73311fc98453118f8fc332e6c6895e7d"
+        },
+        {
+          "id": "test-04-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-04-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "9fea23afe2468d714a858d35c9dab6ba055c7c31a6f088f6df4926301f95435c"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-04-0-preferred",
+            "test-04-0-soft",
+            "test-04-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "test-05",
+      "split": "test",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "test-05-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-05-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "26f7913b2dd9d527fb3684e630b679fae77136bbc33c74f9e6f3052a1ce76090"
+        },
+        {
+          "id": "test-05-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-05-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "50b8ecf9c19eae92cdd917c87ff5d816321501c3d7ce1a0e90356322ae88bc34"
+        },
+        {
+          "id": "test-05-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-05-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7969aff2dd05cdb0fcac94e012b25e85bdac1b203dd1040da09c05089cb1373b"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-05-0-preferred",
+            "test-05-0-soft",
+            "test-05-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "test-06",
+      "split": "test",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "test-06-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-06-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bbd72a838cfb391e580b7053a848208cbd7a10d890796a23873b3e18c5ecf63a"
+        },
+        {
+          "id": "test-06-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-06-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "84cf774c6baa141dfbe50cdd0dc4df77369fcb21e1b33bf1b51be6647ef2472e"
+        },
+        {
+          "id": "test-06-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-06-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b0033f86ec7238f74f1ff9e52a37bbdb95e6270ba24c3eb3a571272a9feb73df"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-06-0-preferred",
+            "test-06-0-soft",
+            "test-06-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "test-07",
+      "split": "test",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "test-07-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-07-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4b0b6fa7ede575d7eb749facf9d2902986743517e4b76e703d71e8c37ce6d827"
+        },
+        {
+          "id": "test-07-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-07-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f7ad6036156dd6dedd0921685e81357fcb39ebf58cc44b669671e1ad926c6e55"
+        },
+        {
+          "id": "test-07-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-07-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ac1e5d657350314c8ddb938681136c3e49d6b11f82fb400505edeed467dc4e4a"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-07-0-preferred",
+            "test-07-0-soft",
+            "test-07-0-dark"
+          ]
+        }
+      ],
+      "context": "burst"
+    },
+    {
+      "id": "test-08",
+      "split": "test",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "test-08-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "eeb62bd971e3860115c0f3bae5290e325ba39a990631dc660652734487c7b6e9"
+        },
+        {
+          "id": "test-08-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7240869774a96548b8625b6f5238e1b1fbee9440bb45f74ad86e709c8f978312"
+        },
+        {
+          "id": "test-08-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ee6d7a129ea7b82e37397cde01dddcea236ce900adedf7ba0567501558d9116c"
+        },
+        {
+          "id": "test-08-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e568db37df0829f2e31fba5d0337ad9acbbb27ca44ccf3a2add4e74ea7f9f4a8"
+        },
+        {
+          "id": "test-08-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "406b0c0aa28bf2d7290d2a67b6a52ae161e351add6c4857bc5f6eec3c40d450a"
+        },
+        {
+          "id": "test-08-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3efafaaf1244ed58b00f91a049c1464723c9492230a940aa9df1e9f3fa4000ee"
+        },
+        {
+          "id": "test-08-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "71cc66b92f6375798ebce7790e0a19faf43b0a1752f0c5bfbe06f74c48a25795"
+        },
+        {
+          "id": "test-08-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6ce2a5e7c59e30710ee4ec37bb8db60dc4e0738b0f3930935d37f62c8b7d0bb1"
+        },
+        {
+          "id": "test-08-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fd9a781f95baf5b80fa68a6b1b78c899c968b9b779fbea3c4e423b211aaa6df6"
+        },
+        {
+          "id": "test-08-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-08-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "08a34257f0e7097497cc13945099410a0e49a37ce839b75933b1b0225656f40e"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-08-0-preferred",
+            "test-08-0-soft",
+            "test-08-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-08-1-preferred",
+            "test-08-1-soft",
+            "test-08-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-08-2-preferred",
+            "test-08-2-soft",
+            "test-08-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-09",
+      "split": "test",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "test-09-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "da8407351c91b9a581c1e9b0eb973092d5b51220cb65b023700f9ba2a15cfa81"
+        },
+        {
+          "id": "test-09-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "553da87bbe0fb366efab616e523c264546569ecc80450d90bbd9deebdc551d86"
+        },
+        {
+          "id": "test-09-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "03e626b7fcbff38bc67aacde910b2904d54dbe3c94ab4ca21b6bd5984ace8a25"
+        },
+        {
+          "id": "test-09-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d454c66ad2e000f3d7f8106c78a9859511d9d449a3685cb79d857ebc3eb79f50"
+        },
+        {
+          "id": "test-09-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "6dfad3db673a7814b7920281efa68dcd25535c810bf47bc4953d5086e764cb50"
+        },
+        {
+          "id": "test-09-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e2a47c77e5941904b9134ae0f6805f90c12e160db5004ddd7aeb821f1a90ad52"
+        },
+        {
+          "id": "test-09-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cd75ae71852e55b15f4645ff60461036db01fbffa6c8688c405dcd73b40d3309"
+        },
+        {
+          "id": "test-09-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d37f536994d6e70046b04adce5842c25fe50d208bf9a5a38cbcf8d23369df96e"
+        },
+        {
+          "id": "test-09-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "37d1ea3c93e77e5cbfe856448a2d6fe8f2097ce68c6aeba39ac897a1af11071c"
+        },
+        {
+          "id": "test-09-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-09-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "6c66002c9bcc33020ebcee4e26eab786ede4e82d192582d94865cbae01fe0ef2"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-09-0-preferred",
+            "test-09-0-soft",
+            "test-09-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-09-1-preferred",
+            "test-09-1-soft",
+            "test-09-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-09-2-preferred",
+            "test-09-2-soft",
+            "test-09-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-10",
+      "split": "test",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "test-10-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e024b96d57feb879c98a434cccfb749d55c6acc39b5680d550d13f1f6b5abb84"
+        },
+        {
+          "id": "test-10-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "dff3d23bb35cf854c63a7a07d69b355f5b54d719b63100bbd31c8c3663bbd26a"
+        },
+        {
+          "id": "test-10-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "328056194194d6855827b2039bfc963bf3b9421911ca325cc8a36edcedf225d4"
+        },
+        {
+          "id": "test-10-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "39c455442f076b5a7615409c1e2aa90fc24364247fb601b326932f3fb5a59279"
+        },
+        {
+          "id": "test-10-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d3d51c33da0aa2578309a8af76e60c83c96a9ddf4c108bb64f9ec4f492000235"
+        },
+        {
+          "id": "test-10-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b9b43e9f7a09cb6a519eed69275471f9cbcbc571a167cdf4093088ef472b29bf"
+        },
+        {
+          "id": "test-10-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "84d17f22387adbc88daa545fcf88dee6eb4089a2d62b0aa6ffcc9ee7c9c7a8be"
+        },
+        {
+          "id": "test-10-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "94fd7ca0f780116be64d7d72bac5600467c619faefba590f7408d346f01e62a8"
+        },
+        {
+          "id": "test-10-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1fd0c7057346b60408f859da382d9e1979f0b650ab5a3bb57913026cdc11d191"
+        },
+        {
+          "id": "test-10-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-10-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "fa84cdafa468e853293256b8cbd78b988b953bf680a4615e0c8138389c595169"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-10-0-preferred",
+            "test-10-0-soft",
+            "test-10-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-10-1-preferred",
+            "test-10-1-soft",
+            "test-10-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-10-2-preferred",
+            "test-10-2-soft",
+            "test-10-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-11",
+      "split": "test",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "test-11-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c071b20fafe7df2b70cfd00013d7f930876ecee21fe54a4c7dee139d29e4310b"
+        },
+        {
+          "id": "test-11-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d68354cf4ca27a332cbcec348066c02f0f85338af86d3cf026916b0360ce7e53"
+        },
+        {
+          "id": "test-11-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "9f8eed1898eba97f0bfa716026e1306de30388bce4ad0d199fda2a07197afcf7"
+        },
+        {
+          "id": "test-11-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d5f45c7d9781e809e65d8dfd051519ec6b3745e4f83bcecb181af18a2eb8bae5"
+        },
+        {
+          "id": "test-11-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "10dfe461c61403a7604bc2cbaaa8ef9eb12e45ea28ccac3c415de0568475385d"
+        },
+        {
+          "id": "test-11-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b3356a1d41d982719eadf7789859d8e78aeb3be6c5522216f22deb03149cc37f"
+        },
+        {
+          "id": "test-11-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a548af0ffd801b4ea800050b2fda5dd7b15a3385cca751b158792cf082a3ad08"
+        },
+        {
+          "id": "test-11-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fcf6dc1f08c0c0761c3dc5aefd04bc004410db5c71f583fa8e97e60511c20245"
+        },
+        {
+          "id": "test-11-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "eee3d3f8efd2df11b0c1f16e2f79f99103a3c84265a7396e4d38725222dc2b11"
+        },
+        {
+          "id": "test-11-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-11-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "7e4f4d063a06761316770314740c911338a0c6b4080e9009a3454fe666671bfa"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-11-0-preferred",
+            "test-11-0-soft",
+            "test-11-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-11-1-preferred",
+            "test-11-1-soft",
+            "test-11-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-11-2-preferred",
+            "test-11-2-soft",
+            "test-11-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-12",
+      "split": "test",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "test-12-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e41dd19a7449e99ab5ab0c056f0b54f776156011598cd75986dfceec597afc38"
+        },
+        {
+          "id": "test-12-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5ee9d89203b54eb1c86d62fe5bdfeb40ff6b36a0baf6665195bf89d65696d511"
+        },
+        {
+          "id": "test-12-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "eb542796815eeae28cf1150ae89794cda5e9bbdd1a9e79ac13e31339cce91156"
+        },
+        {
+          "id": "test-12-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8432c1ef5c3137fce942e6dbdc93ea644d9305afd9c7c27e276984e66949b85b"
+        },
+        {
+          "id": "test-12-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ba04dbde30e2fe69cb0cc119cb84b2e0876b71452cd0157d099300cf99a17edd"
+        },
+        {
+          "id": "test-12-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4373bd892a18495315752039ec0031e3b88381b216f56353b2b97b62b16c293d"
+        },
+        {
+          "id": "test-12-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ed82ae298ab1e10f66f0cf2a10336f92be6647b6018e04660d99cfb247587482"
+        },
+        {
+          "id": "test-12-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8d570fc70b8694fbf00f005770e5f426ce3f9c45e36c16654c23a8764f90486b"
+        },
+        {
+          "id": "test-12-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ce76f35391bd2e82bf6ad251075834c1e30f27efa2795b6514ab2edc44ded434"
+        },
+        {
+          "id": "test-12-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-12-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "5613541f622620e7e0f70f2c1b12f19a51cd2dd774f40ae33b1f06efd227dda2"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-12-0-preferred",
+            "test-12-0-soft",
+            "test-12-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-12-1-preferred",
+            "test-12-1-soft",
+            "test-12-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-12-2-preferred",
+            "test-12-2-soft",
+            "test-12-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-13",
+      "split": "test",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "test-13-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bc3081ceab5a0d821aab169f166bf8cd8714bca6e81b6f576adda30f97d39edf"
+        },
+        {
+          "id": "test-13-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4bcb752426dba25bf04ac2886029d0557dc010d71a33056f038aaf4281ab8439"
+        },
+        {
+          "id": "test-13-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "32153af6a4fadf7b01558dbdc58121a4443f722ee18806334d0c20d216f9bd2c"
+        },
+        {
+          "id": "test-13-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f8b14c382c67fbcec300a3b8cd186a2600e149ad7d69dfc20307d775cd8d238a"
+        },
+        {
+          "id": "test-13-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c59d3f1208cff47adda97bc8b34aeca0c6dba72b71f233b8bbcea7a8663d4ba5"
+        },
+        {
+          "id": "test-13-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "523f3d4d1bb7ffcaea4ecd255fb9de47ca9b31b2489a623b5d63b13399cd0d87"
+        },
+        {
+          "id": "test-13-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bcdd4315245ff87e225cc817bb0605c5fb5ae50ea361cbc1a64133a72c6d336e"
+        },
+        {
+          "id": "test-13-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "46ac3ec26f72ee41820c00de5309eb45ac7f51e0846e7f9ba3af652007b439c4"
+        },
+        {
+          "id": "test-13-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7942aba394c1516b666ff2ebebae7545e96d6498fa978f48a77fc6db78ab17ae"
+        },
+        {
+          "id": "test-13-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-13-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "447848f740766e4598e3c53dc6837fec8add4b3bcdd297ded0aac03c086fc797"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-13-0-preferred",
+            "test-13-0-soft",
+            "test-13-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-13-1-preferred",
+            "test-13-1-soft",
+            "test-13-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-13-2-preferred",
+            "test-13-2-soft",
+            "test-13-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-14",
+      "split": "test",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "test-14-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "dc78b8912cd6481ca2758dc7c50cdb858711462707278091a50fed8b0ffec8c2"
+        },
+        {
+          "id": "test-14-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d024247bcdae7e5550486697e33bc8f9a851cc27373b47b7e8e204bf6d4d6a12"
+        },
+        {
+          "id": "test-14-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "64fdf11cfab4818b0673dbf7b4b19ef2cf2b0d5ef4558ef95a71414c83a553db"
+        },
+        {
+          "id": "test-14-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a3f83ed077c62d0e1d866900ecf7ed5853a1b718b69d3c0b4aa357aabdce3c2a"
+        },
+        {
+          "id": "test-14-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1dde9e95a29260380f2e953f9c3f3f21771b12612d356b023dd71d6c4e7808f3"
+        },
+        {
+          "id": "test-14-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f1d2acb4eea907a6eea78173a39cfa78c2acb66632eb5daa12811f05546a44b6"
+        },
+        {
+          "id": "test-14-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e4f084ea6a1a8305ac793ebc4951ffa0a4ea774c77bcfa163c6b0a196492816a"
+        },
+        {
+          "id": "test-14-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8d5ab91e96b752da46b37c1fd3f0ecb02dc3c106232631fd061bce4f96d802c9"
+        },
+        {
+          "id": "test-14-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fc8b6c7c26aceaa8c696dd27359f9e1d58fe8e73c3951aab53b6b6741ef9a32d"
+        },
+        {
+          "id": "test-14-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-14-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "4561d9ca96708c49aedaae287c94c574b1c19230ce3156cc401819e43d45c0fd"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-14-0-preferred",
+            "test-14-0-soft",
+            "test-14-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-14-1-preferred",
+            "test-14-1-soft",
+            "test-14-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-14-2-preferred",
+            "test-14-2-soft",
+            "test-14-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-15",
+      "split": "test",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "test-15-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d40b593c5e70fe89bac7fa34a70c7f0540a7ae3fefe0b8325103f985d8e07fe9"
+        },
+        {
+          "id": "test-15-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1eb933cbd72e7381ddd214be574505d6df3fa7816b4065d4b1469e65839ae7c7"
+        },
+        {
+          "id": "test-15-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "82b3fa46faa272b39ae4b9b40570b2d14417735fd7297653f135825cf10ecfaf"
+        },
+        {
+          "id": "test-15-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7d3996b99ccd788f4736ca825ab48e1f80f9e571581496a21f8dcda6fcd35e8a"
+        },
+        {
+          "id": "test-15-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f83dcd800b47e8f55fb3c29258b0b8971dfd17d9f9122ec921c41e3548cc3d9f"
+        },
+        {
+          "id": "test-15-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3d91ffd5844850eb0d608b90907cf0067734277bb78b17b158f792a35be617ce"
+        },
+        {
+          "id": "test-15-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "561fb8b45ecb12b70bae44ff27eca906d0fc06e49c4235290629fbcd35b91659"
+        },
+        {
+          "id": "test-15-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b5c7c0b76c351124735e512b2b41af00caf437ae7ae3acf0f29836648e1a1e3a"
+        },
+        {
+          "id": "test-15-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a3dd7d3e011bf203e585eca6f45e6fb6b9a79ec43b812c16d7f5e4a0143bb14d"
+        },
+        {
+          "id": "test-15-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-15-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "7523bb86b3e1be59eaa41d28d7ccf9931a38b2513fb97df0a482c7e368776960"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-15-0-preferred",
+            "test-15-0-soft",
+            "test-15-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-15-1-preferred",
+            "test-15-1-soft",
+            "test-15-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-15-2-preferred",
+            "test-15-2-soft",
+            "test-15-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-16",
+      "split": "test",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "test-16-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "628f851259a93507c4ec21a32870efe00fd0517ae1cfede609ce9f2e4a8460d0"
+        },
+        {
+          "id": "test-16-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a63fe3b9dae414081454fbfda43a65d4caa9799b4178df19c80df660a079cf1f"
+        },
+        {
+          "id": "test-16-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a6926a24fd58916eff39a7d04c60ea8b6a7b04b62d3c0053c75d6cfc39495735"
+        },
+        {
+          "id": "test-16-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4734e1ed2e573dbb2e9a25d8c0c4ccaa765255c0e313e08c87725e9b66196514"
+        },
+        {
+          "id": "test-16-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "38ad2ec235a9e0537754591fc0a285d6010bbf06454d0895eba98ba92b5f15f2"
+        },
+        {
+          "id": "test-16-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b58b7b87fd690c02c2579ab056444d2ee755ec79dd0a68601ce22205c4b80999"
+        },
+        {
+          "id": "test-16-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f99f0d5caf0e3ee0544c9af852d18d9d65e69a74cf846c11b06d2c4f2d5a8af0"
+        },
+        {
+          "id": "test-16-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5817d9fb2ddd0d76f5ea6ca4cda1c210fc5855a35f92bd008988c3d73cdd0a24"
+        },
+        {
+          "id": "test-16-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b70a8c31d0b7c33b92aee3368131989737ed36721e39c022f3db0be7797dc1e3"
+        },
+        {
+          "id": "test-16-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-16-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "cd6bc82987f622114900d5faa8778c2d121edbca14fae2614d3ae1562ec2fa05"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-16-0-preferred",
+            "test-16-0-soft",
+            "test-16-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-16-1-preferred",
+            "test-16-1-soft",
+            "test-16-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-16-2-preferred",
+            "test-16-2-soft",
+            "test-16-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-17",
+      "split": "test",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "test-17-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1cd30eb3897ab735220f85ceb55cd804ed871357bea9ff31115bfae455c94987"
+        },
+        {
+          "id": "test-17-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3e8482159c975be44eff995791d74de0a320e7d746d7dc59399864bdd3bcfaca"
+        },
+        {
+          "id": "test-17-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2577f7a9cdbf9bbb344ecb2e86ecb488600b9070f245f41743f08fb24e31087a"
+        },
+        {
+          "id": "test-17-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5c50e56983c1c8b31838aa3df617da3ccbb498695f389a18f2c0b2c8b805a906"
+        },
+        {
+          "id": "test-17-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "030ea2037ce5e978a992fb20627f0758fa1551858fc51dd19a9f163ac3bae157"
+        },
+        {
+          "id": "test-17-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b4f15f97b81105a5d217f4a49b06e668f6de1b0e470d3a3b5569fceb8b58dbd6"
+        },
+        {
+          "id": "test-17-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ca71145cc721aeba1e88b2434471fca7c16631b4cdd2b72038261ed910ffb100"
+        },
+        {
+          "id": "test-17-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c44ff07207e492d8e6fb548f9955f6d7d54eee8112cc923251c25e33f418ab09"
+        },
+        {
+          "id": "test-17-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "fd6127e368303e933fe0f1e993fd7eaea9cffab995961e0e7ba985559e610752"
+        },
+        {
+          "id": "test-17-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-17-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "7541da58c8a8720c4a0f4973e929213e68bd158c4b46250e5c039888a8b4f6e5"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-17-0-preferred",
+            "test-17-0-soft",
+            "test-17-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-17-1-preferred",
+            "test-17-1-soft",
+            "test-17-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-17-2-preferred",
+            "test-17-2-soft",
+            "test-17-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-18",
+      "split": "test",
+      "category": "ordinary",
+      "photos": [
+        {
+          "id": "test-18-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "0193b8d1041aaa145524822f528c50806fac9a39e3b36f471988b0d39f67f225"
+        },
+        {
+          "id": "test-18-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "26dfc33c2800a681657b9a7761d45d0f6808b4b93abd86a1bd92da1fbf1a8921"
+        },
+        {
+          "id": "test-18-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ba75c044a3ad8ccc52488aff8969fea7bbe72e5f19778867e4b1c793080715af"
+        },
+        {
+          "id": "test-18-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "23b03d75b62c577e9787dcb7ebe4527dbe88e76cac837d7389b4148b26e48a17"
+        },
+        {
+          "id": "test-18-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a274474b1cf84ec73c90ad0dfb0a25cc753518f1782eba85f361bda797a7d3ac"
+        },
+        {
+          "id": "test-18-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "19032fc5e9cb8112a72565dee98d9052b0a933c5526e0fb58eb9234e458955a7"
+        },
+        {
+          "id": "test-18-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "a5bb1cede8be3ccab478192586b5a36a6ad5be27b829d97bd21d89182029e9fa"
+        },
+        {
+          "id": "test-18-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b7f245fad0ccdfac7f997470b8e31239eb539e24f0371b47991259aa234a2937"
+        },
+        {
+          "id": "test-18-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ae1ff47f1adeba3ed8f007354e7378952e40570321a7393d05b2b988a49f22f4"
+        },
+        {
+          "id": "test-18-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-18-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "2554a38d751a3c8390495214708e6634c73069c627850170df70a916d7fcbaee"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-18-0-preferred",
+            "test-18-0-soft",
+            "test-18-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-18-1-preferred",
+            "test-18-1-soft",
+            "test-18-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-18-2-preferred",
+            "test-18-2-soft",
+            "test-18-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-19",
+      "split": "test",
+      "category": "low_light",
+      "photos": [
+        {
+          "id": "test-19-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-0-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "88ee52e7a787c7a8f6316e8cd68f9771fd72fabf33dbd4fa83d6911fac897cb0"
+        },
+        {
+          "id": "test-19-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-0-soft.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "c4b94f15d9a5dad3a0988940fa2594a82e1d6d167bfd6ebb19eef619659823c7"
+        },
+        {
+          "id": "test-19-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-0-dark.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "467bd20d0845ae78ed5868cfd067102f6862593563db340ea93221a4f8a23ebe"
+        },
+        {
+          "id": "test-19-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3859256e3f8d379f24f3dfa581f492eb80b24ad94c4911d66c62b5d7709ae582"
+        },
+        {
+          "id": "test-19-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "3100f969916a47dae7439bcba858fadac88beedcbfd98239883390f2c89e9002"
+        },
+        {
+          "id": "test-19-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ce2d5d6425f0bae25b260bd9f9f62b32f8a4062a800065cca531f66787ad67d7"
+        },
+        {
+          "id": "test-19-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d111351ec5793e882a65b39c26f8438facf6a55aca04e42a64a79aabd796679f"
+        },
+        {
+          "id": "test-19-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f08ae08af4c870bfad98381abceae2281d0406757a88c622257306d48ddd0ed1"
+        },
+        {
+          "id": "test-19-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2b47edc5fcf9088866dfd738438de668533f83229d360ebd13763478a5c71c74"
+        },
+        {
+          "id": "test-19-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-19-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "88ef543dc3efd23df2cb3b47a25f428c5a99487c33bc985331733cc83860d895"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-19-0-preferred",
+            "test-19-0-soft",
+            "test-19-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-19-1-preferred",
+            "test-19-1-soft",
+            "test-19-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-19-2-preferred",
+            "test-19-2-soft",
+            "test-19-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-20",
+      "split": "test",
+      "category": "intentional_blur",
+      "photos": [
+        {
+          "id": "test-20-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ac78acee2f2df5b4e82c7aa098f3e648fa57d5bf8057298e48037fbece37831d"
+        },
+        {
+          "id": "test-20-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d30de549839e790f7c59bd3ec3b3337a583e5db6a284f127d58c719c1e572cab"
+        },
+        {
+          "id": "test-20-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cfe18527a43fd7b448d4e98586230a5bb543a8aa617aafb92ec5550d2e479139"
+        },
+        {
+          "id": "test-20-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-1-preferred.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "1132ff5186fc45bc3c87e3a3a9f9261aab1b7f38039250cc94bf76b747fc025b"
+        },
+        {
+          "id": "test-20-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-1-soft.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "bda68d3844f7b565d3a76d30ad5ff3d7447ff7f5fae4e64ea4a6201d7d111a65"
+        },
+        {
+          "id": "test-20-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-1-dark.png",
+          "relevance": 2,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "725432564bebc4f048652af0694d4000aa1e822967d3cbcd4a897ddc12b5bf58"
+        },
+        {
+          "id": "test-20-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f332c64f42e6a55adf6150def6d7159721b61088efd6338204c2ab9e31320e49"
+        },
+        {
+          "id": "test-20-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "7c24e02ba282cbaf554ec9607ba1ec344bb2ca79af3cc94570893acc6d330bb4"
+        },
+        {
+          "id": "test-20-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "23a1f9ec5a10562b4099e7f12e75eb278baf7908fcdac2d824e42f0a38fbbe86"
+        },
+        {
+          "id": "test-20-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-20-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "2f7ce3d11bae325bfab8b39ac4f6c1f70d5a80e2b2ec2e1d16de7a6c8b6c002a"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-20-0-preferred",
+            "test-20-0-soft",
+            "test-20-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-20-1-preferred",
+            "test-20-1-soft",
+            "test-20-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-20-2-preferred",
+            "test-20-2-soft",
+            "test-20-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-21",
+      "split": "test",
+      "category": "bad_outlier",
+      "photos": [
+        {
+          "id": "test-21-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2af5a786136542bf6e19336ecc83d36450479b429044ae4be77dab87e4cb4e1e"
+        },
+        {
+          "id": "test-21-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2db87fc0a76d132c8e9a36f52390fd4216a6e32b465cf47602d34bf012676f6a"
+        },
+        {
+          "id": "test-21-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "911dd05dcfcb00eb4170df05d4f31401955e36cf1212747df0f166869d2147b3"
+        },
+        {
+          "id": "test-21-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b4fa7d06c900320006fe051ebc7cf1947574e69bbbb061bacebc0569a327ce6a"
+        },
+        {
+          "id": "test-21-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e2d4b7de2cf19532152c53481daf0fde8999c65a2c9d01c0481a20fc18b0fed2"
+        },
+        {
+          "id": "test-21-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "cff50dbd5711c148ea6537b03931fcbfef61dd44ddfc16ebfbcd5dc276257d86"
+        },
+        {
+          "id": "test-21-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ce5f631c4e7067c30e5026c6585b5352bd1e488181880e6f4944ec116e59ae59"
+        },
+        {
+          "id": "test-21-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "97d0f4b07bc216700ff8a328ffb446c804c3700df7deb51b7e843e60d851c5c5"
+        },
+        {
+          "id": "test-21-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "565106d1de8b717f5288441895d0fbcd059dca05e03e0f8970d76345f8360fc4"
+        },
+        {
+          "id": "test-21-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-21-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "35f4e03ddac5bcf35734916d4e528a2b55abdece4515b275d3dc60bfbb0c8011"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-21-0-preferred",
+            "test-21-0-soft",
+            "test-21-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-21-1-preferred",
+            "test-21-1-soft",
+            "test-21-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-21-2-preferred",
+            "test-21-2-soft",
+            "test-21-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-22",
+      "split": "test",
+      "category": "coverage",
+      "photos": [
+        {
+          "id": "test-22-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "55375674dcd67c0bca4ca4342963e7d195521839412be1ba5b95f51b497af275"
+        },
+        {
+          "id": "test-22-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8947e0ab41a64bb5d6eabd2f4aa3dc409738efb056c45f122566793c228c9249"
+        },
+        {
+          "id": "test-22-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "5e8663713a885f5a4636311aacef86d2696b1569db1d57891cf2a1159fb1195a"
+        },
+        {
+          "id": "test-22-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "61da4974b5f5d620d299d9729a81b3ae0d6bd419aa688713830a47daa2a5886e"
+        },
+        {
+          "id": "test-22-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "e9e74a6f3eb17c8d9576065cbf43987aa74a2f54da8f2d7f71966170da2d13e2"
+        },
+        {
+          "id": "test-22-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "68cf79c1ffa0f29f6700693893c09d85ca7e20ccf2722894d379d760a8c2de86"
+        },
+        {
+          "id": "test-22-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "eac32880256ef13bff8af9a95664f6c4a569ea5c21bbbcaa8cd3d1d29a9310a8"
+        },
+        {
+          "id": "test-22-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "f6df02053261ce32f37cc88301cfb342514aaa48250831e9dfdc89defae2ef26"
+        },
+        {
+          "id": "test-22-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "2006d3fbeeeaf269b8296d5a83b3dd8576e40c22bf1e4a74870dabaf04073818"
+        },
+        {
+          "id": "test-22-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-22-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "4ecf5ded424d90744c241fef6c8b248357cb9ab0e908b997bcd3b3ec856e7a75"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-22-0-preferred",
+            "test-22-0-soft",
+            "test-22-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-22-1-preferred",
+            "test-22-1-soft",
+            "test-22-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-22-2-preferred",
+            "test-22-2-soft",
+            "test-22-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    },
+    {
+      "id": "test-23",
+      "split": "test",
+      "category": "boring_center",
+      "photos": [
+        {
+          "id": "test-23-0-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-0-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "0",
+          "timestamp_minutes": 0,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "ec1d725cbfa68f003e909ace7e43e3ca8da262df0b2374e204ae975c259f6937"
+        },
+        {
+          "id": "test-23-0-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-0-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 1,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "8dd24c5a624e81ed0c01e4866a980bec3da0824c4fd5b8116f9dbbe8be6de3fa"
+        },
+        {
+          "id": "test-23-0-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-0-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "0",
+          "timestamp_minutes": 2,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "46820600552c493a0bc77d5d3edf65214af2ecb7cbb09138e4c710fd7578c9e6"
+        },
+        {
+          "id": "test-23-1-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-1-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "1",
+          "timestamp_minutes": 70,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "507c258a5d8fdfabd0aabcbed5085dd8920457c3b2d03e6788d96a5a504fadcc"
+        },
+        {
+          "id": "test-23-1-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-1-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 71,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "88f5bdc74c7ca704a74b383b5838927d864cc8d7b51d6773eabf14ac256020d4"
+        },
+        {
+          "id": "test-23-1-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-1-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "1",
+          "timestamp_minutes": 72,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "b8e7ad59fc492c83930abb44568bcfb9102ba595b4ca73d62f94063242a140c5"
+        },
+        {
+          "id": "test-23-2-preferred",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-2-preferred.png",
+          "relevance": 3,
+          "favorite": true,
+          "region": "2",
+          "timestamp_minutes": 140,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "d2615c512e42220aa57a50c929275368b919ebc222c2709a582c3ec3fa96d7ee"
+        },
+        {
+          "id": "test-23-2-soft",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-2-soft.png",
+          "relevance": 1,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 141,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "37d7f2a63485268fa403a1c66c23ac41e282dca30af2bdbe0af2e6f0841a8bb5"
+        },
+        {
+          "id": "test-23-2-dark",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-2-dark.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "2",
+          "timestamp_minutes": 142,
+          "rubric": "Prefer intact scene coverage; contextual exceptions are authored",
+          "content_sha256": "4b74b36776183efaf7dc6ce7b1542aa2b7391e33871b08720fb01023b2ccacdc"
+        },
+        {
+          "id": "test-23-outlier",
+          "path": "../benchmark-output/phase5-ranking-v2/test-23-outlier.png",
+          "relevance": 0,
+          "favorite": false,
+          "region": "outlier",
+          "timestamp_minutes": 15,
+          "rubric": "Unrelated noise should not displace scene coverage",
+          "content_sha256": "502d9efa84b487bc2aae94113e2d1a97c1780493450ad789ff988c3669ac0536"
+        }
+      ],
+      "groups": [
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-23-0-preferred",
+            "test-23-0-soft",
+            "test-23-0-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-23-1-preferred",
+            "test-23-1-soft",
+            "test-23-1-dark"
+          ]
+        },
+        {
+          "type": "NEAR_DUPLICATE",
+          "members": [
+            "test-23-2-preferred",
+            "test-23-2-soft",
+            "test-23-2-dark"
+          ]
+        }
+      ],
+      "context": "event"
+    }
+  ],
+  "label_source": "Authored transformation preferences before algorithm output; not a human study",
+  "split_unit": "entire source-scene family",
+  "seeds": [
+    51704,
+    101704
+  ]
+}
