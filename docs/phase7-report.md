@@ -1,5 +1,8 @@
 # PhotoCull Phase 7 completion report
 
+Historical initial Phase 7 snapshot: measurements and demo counts below used public_demo_v1.
+The current photographic public_demo_v2 is documented in demo-dataset.md.
+
 Release: 0.7.0. Phase 7 only. No Git initialization, staging, commit, push, account creation or
 deployment occurred. The original frozen A/B/duplicate/event rules remain unchanged.
 

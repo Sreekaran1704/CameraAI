@@ -57,8 +57,8 @@ the hosting platform; local commands explicitly bind loopback.
    These steps follow the official [deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
 5. Open the public URL in a fresh browser. Confirm the Web Demo label and temporary-server
    privacy sentence; there must be no folder scanner or SQLite cache UI.
-6. Run Try Demo Without Uploading Photos: 12 generated images should show 1 exact, 2 near,
-   3 burst groups and 3 events. Check Review, Events, Best Photos, Preferences and CSV/JSON.
+6. Run Try Demo Without Uploading Photos: 12 generated photographic samples should show 1 exact, 1 near,
+   1 burst group and 3 events. Check Review, Events, Best Photos, Preferences and CSV/JSON.
 7. Test with disposable generated images: one valid JPEG/PNG/WEBP, a corrupt file, a >15 MiB
    file, an >8 MP image and the 30-image limit. At 30 the uploader must disable; cumulative
    accepted attempts consume a 60 MiB budget. Clear must return to an empty session.

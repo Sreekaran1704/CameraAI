@@ -7,7 +7,7 @@ from photocull.preference_storage import PreferenceStore, consistency
 from photocull.preferences import candidates, feature_records, personalized
 from photocull.ranking import export_manifest, rank, shortlist
 from photocull.sources import UploadedImageSource
-from photocull.ui.style import apply_style, bundled_sources
+from photocull.ui.style import apply_style, bundled_manifest, bundled_sources
 from photocull.web_session import (
     MAX_IMAGES,
     MAX_PREFERENCE_ACTIONS,
@@ -52,6 +52,73 @@ def display_card(session, item, event_names, key):
         session.decisions[identifier] = decision
 
 
+def sample_comparison(session):
+    """Fixture intent is educational metadata; predictions always come from analysis."""
+    manifest = bundled_manifest()
+    samples = {item["file"]: item for item in manifest["samples"]}
+    photos = {
+        p.filename: p
+        for p in session.photos
+        if p.filename in samples and p.sha256 == samples[p.filename]["sha256"]
+    }
+    with st.container(border=True):
+        st.subheader("See the difference for yourself")
+        st.write(
+            "Choose an example, compare the images, then check what PhotoCull measured. "
+            "Start with the latte art and croissant: sharp detail versus missed focus."
+        )
+        comparisons = manifest["comparisons"]
+        category = st.selectbox(
+            "What would you like to compare?",
+            range(len(comparisons)),
+            format_func=lambda i: comparisons[i]["name"],
+            key="sample-category",
+        )
+        comparison = comparisons[category]
+        reference = comparison["reference"]
+        options = [name for name in comparison["files"] if name != reference and name in photos]
+        if reference not in photos or not options:
+            st.info("Sample images are unavailable. Clear this session and try the demo again.")
+            return
+        choice = st.selectbox(
+            "Compare original with",
+            options,
+            format_func=lambda name: samples[name]["label"],
+            key=f"sample-choice-{category}",
+        )
+        st.caption(comparison["note"])
+        for col, filename in zip(st.columns(2), (reference, choice), strict=True):
+            photo = photos[filename]
+            with col:
+                st.image(session.thumbnails[photo.id], width="stretch")
+                st.write(f"**{samples[filename]['label']}**")
+                st.caption(f"Sample setup: {samples[filename]['intended_example']}")
+                st.metric(
+                    "Measured technical quality", f"{photo.quality['technical_quality_v1']:.3f}"
+                )
+                warnings = photo.quality["warnings"]
+                st.caption(
+                    "Measured warnings: "
+                    + (", ".join(w.replace("_", " ") for w in warnings) if warnings else "none")
+                )
+        pair = {photos[reference].id, photos[choice].id}
+        relation = next(
+            (
+                g["type"].replace("_", " ").lower()
+                for g in session.duplicates["groups"]
+                if pair <= set(g["members"])
+            ),
+            "no duplicate or burst relation found",
+        )
+        st.write(f"**PhotoCull detected:** {relation}.")
+        st.caption(
+            "Sample setup describes how these generated examples were made, not a prediction. "
+            "Quality uses measured edge detail, exposure, contrast and resolution. "
+            "Duplicate checks use file hashes and visual evidence; burst checks also use synthetic "
+            "capture times. Scores do not measure emotional value."
+        )
+
+
 def result_views(session):
     names = {i: e["name"] for e in session.events["events"] for i in e["members"]}
     view = st.segmented_control(
@@ -93,6 +160,8 @@ def result_views(session):
             f"{session.duplicates['exact_reclaimable_bytes'] / 1024:.1f} KiB. "
             "This is an estimate; PhotoCull never deletes images."
         )
+        if st.session_state.get("demo_notice"):
+            sample_comparison(session)
         st.write("**A first look**")
         for col, item in zip(st.columns(3), session.ranking["selected"][:3], strict=False):
             with col:
@@ -295,7 +364,7 @@ def main():
             demo = bundled_sources()
             st.image(
                 demo[0].data,
-                caption="Generated demo illustration · no personal photos",
+                caption="AI-generated photographic sample · no personal photos",
                 width="stretch",
             )
         primary, secondary = st.columns(2)
@@ -315,8 +384,9 @@ def main():
     )
     if st.session_state.get("demo_notice") and session.photos:
         st.success(
-            "You're exploring generated, public-safe illustrations. Try a real upload or "
-            "inspect the duplicate, event and shortlist explanations."
+            "You're exploring 12 AI-generated photographic samples. "
+            "Compare sharp, blurred, dark and bright versions below, then explore the results. "
+            "Scene labels and capture times are teaching fixtures."
         )
     if st.session_state.get("show_upload") or session.photos:
         with st.expander("Add photos · one image at a time", expanded=not session.photos):

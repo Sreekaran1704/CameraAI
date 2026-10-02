@@ -47,11 +47,17 @@ def apply_style(embed=False):
         )
 
 
-def bundled_sources():
+def bundled_manifest():
     import json
+
+    root = Path(__file__).resolve().parents[3] / "assets/demo"
+    return json.loads((root / "manifest.json").read_text())
+
+
+def bundled_sources():
 
     from photocull.sources import UploadedImageSource
 
     root = Path(__file__).resolve().parents[3] / "assets/demo"
-    manifest = json.loads((root / "manifest.json").read_text())
+    manifest = bundled_manifest()
     return [UploadedImageSource(name, (root / name).read_bytes()) for name in manifest["files"]]

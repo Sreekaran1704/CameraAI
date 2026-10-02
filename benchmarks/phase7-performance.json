@@ -246,5 +246,7 @@
       "scope": "640x400 generated JPEGs; memory-only core, excludes HTTP rendering",
       "peak_rss_mib": 99.375
     }
-  ]
+  ],
+  "demo_dataset_version": "public_demo_v1",
+  "historical_note": "Measurements predate the photographic public_demo_v2 replacement; do not attribute these timings to v2."
 }

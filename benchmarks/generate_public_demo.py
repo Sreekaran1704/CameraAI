@@ -1,117 +1,168 @@
-"""Deterministic public-safe illustrated landscapes. No third-party or personal photos."""
+"""Package generated photographic renders with deterministic demo identities/timestamps.
 
+Image content/quality/burst edits were created by the built-in image generator. This
+script only encodes, resizes duplicate examples, copies files and adds fixture EXIF.
+"""
+
+import hashlib
 import io
 import json
 from pathlib import Path
 
-import numpy as np
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent / "assets/demo"
-
-
-def scene(seed):
-    rng = np.random.default_rng(seed)
-    w, h = 640, 400
-    yy, xx = np.indices((h, w))
-    sky = np.stack([46 + yy * 0.14, 118 + yy * 0.12, 150 + yy * 0.09], axis=-1)
-    sky = np.clip(sky + rng.normal(0, 1.5, (h, w, 1)), 0, 255).astype(np.uint8)
-    image = Image.fromarray(sky)
-    draw = ImageDraw.Draw(image)
-    draw.ellipse((420, 35, 480, 95), fill="#ffe3a7")
-    draw.polygon(
-        [
-            (0, 245),
-            (105, 112),
-            (225, 245),
-            (335, 100),
-            (520, 250),
-            (640, 155),
-            (640, 400),
-            (0, 400),
-        ],
-        fill="#457c78",
-    )
-    draw.polygon(
-        [(0, 270), (160, 185), (320, 265), (480, 165), (640, 280), (640, 400), (0, 400)],
-        fill="#2e6462",
-    )
-    draw.rectangle((0, 278, w, h), fill="#7cadb5")
-    for _i in range(60):
-        x = int(rng.integers(w))
-        y = int(rng.integers(290, h))
-        draw.line((x, y, min(x + int(rng.integers(15, 85)), w), y), fill="#a5cbd0", width=1)
-    draw.polygon([(0, 370), (190, 280), (210, 400), (0, 400)], fill="#295454")
-    for i in range(10):
-        x = 15 + i * 18
-        y = 320 - int(rng.integers(20))
-        draw.rectangle((x, y, x + 3, y + 38), fill="#264b42")
-        draw.polygon([(x - 12, y + 12), (x + 1, y - 24), (x + 14, y + 12)], fill="#47784f")
-        draw.polygon([(x - 10, y), (x + 1, y - 31), (x + 12, y)], fill="#5b895c")
-    draw.polygon([(330, 322), (400, 322), (385, 335), (345, 335)], fill="#e7b891")
-    draw.line((368, 288, 368, 322), fill="#f8edd8", width=2)
-    draw.polygon([(366, 290), (341, 317), (366, 317)], fill="#f5dfb5")
-    for _i in range(9):
-        x = int(rng.integers(w))
-        y = int(rng.integers(100, 200))
-        draw.arc((x, y, x + 15, y + 7), 180, 350, fill="#d5e5e3", width=2)
-    return image
-
-
-def save(image, name, time):
-    exif = Image.Exif()
-    exif[34665] = {36867: time, 36881: "+00:00"}
-    with io.BytesIO() as stream:
-        image.save(stream, "JPEG", quality=90, exif=exif)
-        (ROOT / name).write_bytes(stream.getvalue())
+SAMPLES = [
+    ("01-lake-original.jpg", "lake", "Original landscape", "Original", "Lake morning", 0, None, 92),
+    ("02-lake-exact-copy.jpg", None, "Exact copy", "Exact copy", "Lake morning", 0, None, 92),
+    (
+        "03-lake-recompressed.jpg",
+        "lake",
+        "Same view, compressed",
+        "Recompressed",
+        "Lake morning",
+        20,
+        None,
+        70,
+    ),
+    (
+        "04-lake-resized.jpg",
+        "lake",
+        "Same view, smaller file",
+        "Resized",
+        "Lake morning",
+        40,
+        768,
+        92,
+    ),
+    ("05-cafe-sharp.jpg", "cafe", "Sharp original", "Sharp", "Cafe afternoon", 0, None, 92),
+    (
+        "06-cafe-blurred.jpg",
+        "cafe-blurred",
+        "Missed focus",
+        "Blurred",
+        "Cafe afternoon",
+        20,
+        None,
+        92,
+    ),
+    ("07-cafe-dark.jpg", "cafe-dark", "Too dark", "Underexposed", "Cafe afternoon", 40, None, 92),
+    (
+        "08-cafe-bright.jpg",
+        "cafe-bright",
+        "Too bright",
+        "Overexposed",
+        "Cafe afternoon",
+        60,
+        None,
+        92,
+    ),
+    (
+        "09-cafe-resized.jpg",
+        "cafe",
+        "Sharp, smaller file",
+        "Resized",
+        "Cafe afternoon",
+        80,
+        768,
+        92,
+    ),
+    ("10-dog-burst-1.jpg", "dog-1", "Burst frame 1", "Burst frame", "Park run", 0, None, 92),
+    ("11-dog-burst-2.jpg", "dog-2", "Burst frame 2", "Burst frame", "Park run", 2, None, 92),
+    ("12-dog-burst-3.jpg", "dog-3", "Burst frame 3", "Burst frame", "Park run", 4, None, 92),
+]
+NOTES = {
+    "Lake morning": (
+        "Compare the red canoe, dock and mountains. Exact copies look identical; "
+        "compressed/resized files can too."
+    ),
+    "Cafe afternoon": (
+        "Compare latte-art edges, croissant flakes and wood grain. "
+        "Blur removes detail; exposure hides or clips it."
+    ),
+    "Park run": (
+        "Compare the dog's paws and stride. These synthetic frames depict "
+        "a changing moment, not identical copies."
+    ),
+}
 
 
 def main():
+    from datetime import datetime, timedelta
+
     ROOT.mkdir(parents=True, exist_ok=True)
-    base = scene(170407)
-    save(base, "01-lakeside.jpg", "2026:01:01 10:00:00")
-    (ROOT / "02-lakeside-copy.jpg").write_bytes((ROOT / "01-lakeside.jpg").read_bytes())
-    save(base, "03-lakeside-reencoded.jpg", "2026:01:01 10:00:01")
-    # Distinct small camera pans form a burst; no copy/delete recommendations for bursts.
-    for i in range(3):
-        pan = base.crop((i * 18, 0, 640 - (2 - i) * 18, 400)).resize(
-            (640, 400), Image.Resampling.LANCZOS
-        )
-        save(pan, f"0{4 + i}-camera-pan.jpg", f"2026:01:01 10:05:0{i}")
-    warm = scene(170408)
-    pixels = np.asarray(warm).copy()
-    pixels[:, :, 0] = np.clip(pixels[:, :, 0].astype(float) * 1.25, 0, 255).astype(np.uint8)
-    warm = Image.fromarray(pixels)
-    save(warm, "07-golden-hour.jpg", "2026:01:01 16:30:00")
-    save(warm.filter(ImageFilter.GaussianBlur(3)), "08-soft-focus.jpg", "2026:01:01 16:30:01")
-    dark = Image.fromarray((np.asarray(warm).astype(float) * 0.22).astype(np.uint8))
-    save(dark, "09-low-light.jpg", "2026:01:01 16:31:00")
-    for i in range(3):
-        different = scene(170420 + i)
-        draw = ImageDraw.Draw(different)
-        draw.rectangle(
-            (180 + i * 60, 210, 230 + i * 60, 280), fill=("#bd9a75", "#d8b98d", "#8ca588")[i]
-        )
-        draw.polygon(
-            [(170 + i * 60, 210), (205 + i * 60, 175), (240 + i * 60, 210)], fill="#76584c"
-        )
-        save(different, f"{10 + i}-weekend-trip.jpg", f"2026:01:03 12:{i * 20:02d}:00")
-    (ROOT / "manifest.json").write_text(
-        json.dumps(
-            {
-                "version": "public_demo_v1",
-                "license": "CC0-1.0",
-                "source": "PhotoCull deterministic generated illustrations, no real photos",
-                "seed": 170407,
-                "files": sorted(p.name for p in ROOT.glob("*.jpg")),
-            },
-            indent=2,
-        )
-        + "\n"
+    previous = (
+        json.loads((ROOT / "manifest.json").read_text())
+        if (ROOT / "manifest.json").exists()
+        else {}
     )
+    samples = []
+    bases = {
+        "Lake morning": datetime(2026, 1, 1, 9),
+        "Cafe afternoon": datetime(2026, 1, 1, 14),
+        "Park run": datetime(2026, 1, 3, 11),
+    }
+    for filename, source, label, kind, occasion, seconds, edge, quality in SAMPLES:
+        target = ROOT / filename
+        if source is None:
+            target.write_bytes((ROOT / "01-lake-original.jpg").read_bytes())
+        else:
+            exif = Image.Exif()
+            timestamp = bases[occasion] + timedelta(seconds=seconds)
+            exif[34665] = {36867: timestamp.strftime("%Y:%m:%d %H:%M:%S"), 36881: "+00:00"}
+            with Image.open(ROOT / "sources" / f"{source}.jpg") as image:
+                if edge:
+                    image.thumbnail((edge, edge), Image.Resampling.LANCZOS)
+                with io.BytesIO() as stream:
+                    image.save(stream, "JPEG", quality=quality, exif=exif)
+                    target.write_bytes(stream.getvalue())
+        samples.append(
+            {
+                "file": filename,
+                "label": label,
+                "intended_example": kind,
+                "occasion": occasion,
+                "sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
+            }
+        )
+    files = [s["file"] for s in samples]
+    manifest = {
+        "version": "public_demo_v2",
+        "license": "CC0-1.0",
+        "source": "AI-generated photographic renders and edits; no personal photographs",
+        "timestamps": "Authored teaching-fixture EXIF, not authentic camera capture evidence",
+        "files": files,
+        "samples": samples,
+        "comparisons": [
+            {
+                "name": "Spot the quality differences",
+                "note": NOTES["Cafe afternoon"],
+                "files": files[4:8],
+                "reference": files[4],
+            },
+            {
+                "name": "Identical-looking photos, different files",
+                "note": NOTES["Lake morning"],
+                "files": files[:4],
+                "reference": files[0],
+            },
+            {
+                "name": "A burst is a changing moment",
+                "note": NOTES["Park run"],
+                "files": files[9:],
+                "reference": files[9],
+            },
+        ],
+    }
+    (ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    # Remove only former manifest-owned JPEG assets explicitly replaced by this dataset.
+    for filename in previous.get("files", []):
+        if filename not in files and Path(filename).name == filename:
+            (ROOT / filename).unlink(missing_ok=True)
     (ROOT / "LICENSE.txt").write_text(
-        "PhotoCull generated demo illustrations are dedicated to the public domain under CC0 1.0.\n"
-        "No personal or third-party photographs are included.\n"
+        "PhotoCull synthetic photographic demo renders/edits are dedicated under CC0 1.0.\n"
+        "Created with the built-in OpenAI image generator; no personal or third-party photos.\n"
+        "Scenes and timestamps are synthetic teaching examples, not recorded real occasions.\n"
         "https://creativecommons.org/publicdomain/zero/1.0/\n"
     )
 

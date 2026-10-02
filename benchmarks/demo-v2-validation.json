@@ -1,0 +1,360 @@
+{
+  "dataset_version": "public_demo_v2",
+  "scope": "Teaching fixtures, not a held-out accuracy benchmark; unchanged detector thresholds",
+  "group_counts": {
+    "EXACT_DUPLICATE": 1,
+    "NEAR_DUPLICATE": 1,
+    "BURST_GROUP": 1
+  },
+  "events": 3,
+  "upload_bytes": 4331716,
+  "maximum_thumbnail_bytes": 51981,
+  "quality": {
+    "01-lake-original.jpg": {
+      "raw": {
+        "laplacian_variance": 1434.496337890625,
+        "mean_luminance": 0.4237598776817322,
+        "underexposure_fraction": 0.019955095307917888,
+        "overexposure_fraction": 0.0003322030791788856,
+        "luminance_low_clipping": 0.0002691990469208211,
+        "luminance_high_clipping": 1.1455278592375367e-05,
+        "channel_low_clipping": 0.0026919904692082114,
+        "channel_high_clipping": 0.0003092925219941349,
+        "contrast_p95_p5": 161.29844665527344,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.592078831510246,
+        "noise_residual_mad": 0.6008987426757812,
+        "colorfulness": 45.35261917114258,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7415347911461027,
+        "exposure": 0.8475197553634644,
+        "contrast": 0.6325429280598959,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.6546632409112865,
+      "warnings": []
+    },
+    "02-lake-exact-copy.jpg": {
+      "raw": {
+        "laplacian_variance": 1434.496337890625,
+        "mean_luminance": 0.4237598776817322,
+        "underexposure_fraction": 0.019955095307917888,
+        "overexposure_fraction": 0.0003322030791788856,
+        "luminance_low_clipping": 0.0002691990469208211,
+        "luminance_high_clipping": 1.1455278592375367e-05,
+        "channel_low_clipping": 0.0026919904692082114,
+        "channel_high_clipping": 0.0003092925219941349,
+        "contrast_p95_p5": 161.29844665527344,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.592078831510246,
+        "noise_residual_mad": 0.6008987426757812,
+        "colorfulness": 45.35261917114258,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7415347911461027,
+        "exposure": 0.8475197553634644,
+        "contrast": 0.6325429280598959,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.6546632409112865,
+      "warnings": []
+    },
+    "03-lake-recompressed.jpg": {
+      "raw": {
+        "laplacian_variance": 1433.5511474609375,
+        "mean_luminance": 0.4238016903400421,
+        "underexposure_fraction": 0.0198577254398827,
+        "overexposure_fraction": 0.0002749266862170088,
+        "luminance_low_clipping": 0.0001431909824046921,
+        "luminance_high_clipping": 1.1455278592375367e-05,
+        "channel_low_clipping": 0.003094834433040078,
+        "channel_high_clipping": 0.00037420576735092863,
+        "contrast_p95_p5": 161.2074432373047,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.590611913481872,
+        "noise_residual_mad": 0.53375244140625,
+        "colorfulness": 45.25774383544922,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7414084439107907,
+        "exposure": 0.8476033806800842,
+        "contrast": 0.6321860519109987,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.6545622331165373,
+      "warnings": []
+    },
+    "04-lake-resized.jpg": {
+      "raw": {
+        "laplacian_variance": 1454.21337890625,
+        "mean_luminance": 0.42376708984375,
+        "underexposure_fraction": 0.020012371700879765,
+        "overexposure_fraction": 0.00029783724340175954,
+        "luminance_low_clipping": 0.00023483321114369502,
+        "luminance_high_clipping": 0.0,
+        "channel_low_clipping": 0.003701964198435973,
+        "channel_high_clipping": 0.0003952071114369501,
+        "contrast_p95_p5": 161.33790588378906,
+        "megapixels": 0.393216,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.592729009473917,
+        "noise_residual_mad": 0.578643798828125,
+        "colorfulness": 44.86180877685547,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7441425765492179,
+        "exposure": 0.8475341796875,
+        "contrast": 0.6326976701325061,
+        "resolution": 0.032768
+      },
+      "technical_quality_v1": 0.6409953095680634,
+      "warnings": [
+        "low_resolution"
+      ]
+    },
+    "05-cafe-sharp.jpg": {
+      "raw": {
+        "laplacian_variance": 1585.8931884765625,
+        "mean_luminance": 0.42384108901023865,
+        "underexposure_fraction": 0.04109008431085044,
+        "overexposure_fraction": 0.018528913123167155,
+        "luminance_low_clipping": 0.0012257148093841642,
+        "luminance_high_clipping": 0.0007274101906158358,
+        "channel_low_clipping": 0.01760103555718475,
+        "channel_high_clipping": 0.004965863269794721,
+        "contrast_p95_p5": 211.22634887695312,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.878132451657212,
+        "noise_residual_mad": 1.7420048713684082,
+        "colorfulness": 67.02461242675781,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7602945334103247,
+        "exposure": 0.8476821780204773,
+        "contrast": 0.828338623046875,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.7013668824786243,
+      "warnings": []
+    },
+    "06-cafe-blurred.jpg": {
+      "raw": {
+        "laplacian_variance": 13.08271598815918,
+        "mean_luminance": 0.4702856242656708,
+        "underexposure_fraction": 0.01563072763929619,
+        "overexposure_fraction": 0.017967604472140762,
+        "luminance_low_clipping": 2.8638196480938418e-05,
+        "luminance_high_clipping": 0.0003322030791788856,
+        "channel_low_clipping": 0.009696893328445748,
+        "channel_high_clipping": 0.006756705156402737,
+        "contrast_p95_p5": 206.14100646972656,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.869619830852842,
+        "noise_residual_mad": 0.37090301513671875,
+        "colorfulness": 72.1396255493164,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.025498259014558385,
+        "exposure": 0.9405712485313416,
+        "contrast": 0.8083961038028493,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.4266821364992286,
+      "warnings": [
+        "low_sharpness"
+      ]
+    },
+    "07-cafe-dark.jpg": {
+      "raw": {
+        "laplacian_variance": 301.96209716796875,
+        "mean_luminance": 0.062446318566799164,
+        "underexposure_fraction": 0.6607576521260997,
+        "overexposure_fraction": 0.0,
+        "luminance_low_clipping": 0.0912813874633431,
+        "luminance_high_clipping": 0.0,
+        "channel_low_clipping": 0.19085448741446726,
+        "channel_high_clipping": 0.0,
+        "contrast_p95_p5": 49.74699783325195,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 5.396564167797809,
+        "noise_residual_mad": 0.5605513453483582,
+        "colorfulness": 13.77521800994873,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.3765291380157629,
+        "exposure": 0.12489263713359833,
+        "contrast": 0.19508626601275275,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.2405128676922553,
+      "warnings": [
+        "underexposure"
+      ]
+    },
+    "08-cafe-bright.jpg": {
+      "raw": {
+        "laplacian_variance": 610.2423095703125,
+        "mean_luminance": 0.8618983030319214,
+        "underexposure_fraction": 0.0,
+        "overexposure_fraction": 0.46691715542521994,
+        "luminance_low_clipping": 0.0,
+        "luminance_high_clipping": 0.15017297470674487,
+        "channel_low_clipping": 0.0,
+        "channel_high_clipping": 0.22559452895894427,
+        "contrast_p95_p5": 118.31646728515625,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 6.212839673511221,
+        "noise_residual_mad": 0.38680267333984375,
+        "colorfulness": 61.024993896484375,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.549647860030203,
+        "exposure": 0.2762033939361572,
+        "contrast": 0.463986146216299,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.4013680217393803,
+      "warnings": [
+        "overexposure"
+      ]
+    },
+    "09-cafe-resized.jpg": {
+      "raw": {
+        "laplacian_variance": 1603.4534912109375,
+        "mean_luminance": 0.4238196015357971,
+        "underexposure_fraction": 0.04099271444281525,
+        "overexposure_fraction": 0.018311262829912023,
+        "luminance_low_clipping": 0.000796141862170088,
+        "luminance_high_clipping": 0.0004123900293255132,
+        "channel_low_clipping": 0.020094467864125123,
+        "channel_high_clipping": 0.006237399193548387,
+        "contrast_p95_p5": 211.12100219726562,
+        "megapixels": 0.393216,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.876573182557351,
+        "noise_residual_mad": 1.7881927490234375,
+        "colorfulness": 66.24385833740234,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7622956713380171,
+        "exposure": 0.8476392030715942,
+        "contrast": 0.8279254988128064,
+        "resolution": 0.032768
+      },
+      "technical_quality_v1": 0.6873283690656667,
+      "warnings": [
+        "low_resolution"
+      ]
+    },
+    "10-dog-burst-1.jpg": {
+      "raw": {
+        "laplacian_variance": 1513.890869140625,
+        "mean_luminance": 0.5157352089881897,
+        "underexposure_fraction": 0.0004410282258064516,
+        "overexposure_fraction": 0.0007274101906158358,
+        "luminance_low_clipping": 2.2910557184750733e-05,
+        "luminance_high_clipping": 5.727639296187683e-06,
+        "channel_low_clipping": 0.0015865560850439882,
+        "channel_high_clipping": 0.00029783724340175954,
+        "contrast_p95_p5": 144.22145080566406,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.33884012500917,
+        "noise_residual_mad": 0.620513916015625,
+        "colorfulness": 63.22712707519531,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7517243820598075,
+        "exposure": 0.9685295820236206,
+        "contrast": 0.5655743168849571,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.6755978117068195,
+      "warnings": []
+    },
+    "11-dog-burst-2.jpg": {
+      "raw": {
+        "laplacian_variance": 1547.590576171875,
+        "mean_luminance": 0.5137441754341125,
+        "underexposure_fraction": 0.00046966642228739005,
+        "overexposure_fraction": 0.0012715359237536656,
+        "luminance_low_clipping": 1.1455278592375367e-05,
+        "luminance_high_clipping": 0.0,
+        "channel_low_clipping": 0.002808452468230694,
+        "channel_high_clipping": 0.0005994929130009775,
+        "contrast_p95_p5": 143.783447265625,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.370104373922871,
+        "noise_residual_mad": 0.6349029541015625,
+        "colorfulness": 64.8830337524414,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7558105581171468,
+        "exposure": 0.9725116491317749,
+        "contrast": 0.5638566559436274,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.6778842667185281,
+      "warnings": []
+    },
+    "12-dog-burst-3.jpg": {
+      "raw": {
+        "laplacian_variance": 1656.9365234375,
+        "mean_luminance": 0.518646776676178,
+        "underexposure_fraction": 0.0005212151759530791,
+        "overexposure_fraction": 0.0006357679618768328,
+        "luminance_low_clipping": 1.718291788856305e-05,
+        "luminance_high_clipping": 0.0,
+        "channel_low_clipping": 0.0033754887585532747,
+        "channel_high_clipping": 0.00048494012707722385,
+        "contrast_p95_p5": 141.7941436767578,
+        "megapixels": 1.572864,
+        "aspect_ratio": 1.5,
+        "entropy_bits": 7.329984958026197,
+        "noise_residual_mad": 0.5774993896484375,
+        "colorfulness": 66.79740142822266,
+        "analysis_width": 512,
+        "analysis_height": 341
+      },
+      "normalized": {
+        "sharpness": 0.7681897475577296,
+        "exposure": 0.962706446647644,
+        "contrast": 0.5560554653990503,
+        "resolution": 0.131072
+      },
+      "technical_quality_v1": 0.678824403764813,
+      "warnings": []
+    }
+  }
+}

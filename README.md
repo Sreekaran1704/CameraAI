@@ -1,5 +1,8 @@
 # PhotoCull — Phase 7
 
+See [the photographic demo dataset notes](docs/demo-dataset.md) for sample examples,
+generation provenance, and measured behavior.
+
 **Local Edition: your photos stay on this device.** PhotoCull reads a local folder and exposes measurable
 technical-quality indicators, EXIF-aware previews, and explained exact/near duplicate and burst
 groups. Originals are never modified. Optional local MobileNet/TinyCLIP embeddings support an
@@ -20,7 +23,7 @@ browser uploads only and uses bounded, memory-only sessions. Uploaded images are
 temporarily for this session and are not intentionally persisted by PhotoCull. Images reach
 the demo server; the web edition does not claim device-only privacy.
 
-Try the 12 generated, CC0 illustrations using **Try Demo Without Uploading Photos**.
+Try the 12 generated, CC0 photographic samples using **Try Demo Without Uploading Photos**.
 The demo caps sessions at 30 images, 15 MiB/image, 60 MiB cumulative uploads and 8 MP/image.
 No hosted database, accounts, paid APIs or remote inference are needed.
 

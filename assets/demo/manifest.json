@@ -1,20 +1,140 @@
 {
-  "version": "public_demo_v1",
+  "version": "public_demo_v2",
   "license": "CC0-1.0",
-  "source": "PhotoCull deterministic generated illustrations, no real photos",
-  "seed": 170407,
+  "source": "AI-generated photographic renders and edits; no personal photographs",
+  "timestamps": "Authored teaching-fixture EXIF, not authentic camera capture evidence",
   "files": [
-    "01-lakeside.jpg",
-    "02-lakeside-copy.jpg",
-    "03-lakeside-reencoded.jpg",
-    "04-camera-pan.jpg",
-    "05-camera-pan.jpg",
-    "06-camera-pan.jpg",
-    "07-golden-hour.jpg",
-    "08-soft-focus.jpg",
-    "09-low-light.jpg",
-    "10-weekend-trip.jpg",
-    "11-weekend-trip.jpg",
-    "12-weekend-trip.jpg"
+    "01-lake-original.jpg",
+    "02-lake-exact-copy.jpg",
+    "03-lake-recompressed.jpg",
+    "04-lake-resized.jpg",
+    "05-cafe-sharp.jpg",
+    "06-cafe-blurred.jpg",
+    "07-cafe-dark.jpg",
+    "08-cafe-bright.jpg",
+    "09-cafe-resized.jpg",
+    "10-dog-burst-1.jpg",
+    "11-dog-burst-2.jpg",
+    "12-dog-burst-3.jpg"
+  ],
+  "samples": [
+    {
+      "file": "01-lake-original.jpg",
+      "label": "Original landscape",
+      "intended_example": "Original",
+      "occasion": "Lake morning",
+      "sha256": "33239f44c8998dba7cf64312b0d286ff31a77ba5f99dd025bdb1620ec442ded4"
+    },
+    {
+      "file": "02-lake-exact-copy.jpg",
+      "label": "Exact copy",
+      "intended_example": "Exact copy",
+      "occasion": "Lake morning",
+      "sha256": "33239f44c8998dba7cf64312b0d286ff31a77ba5f99dd025bdb1620ec442ded4"
+    },
+    {
+      "file": "03-lake-recompressed.jpg",
+      "label": "Same view, compressed",
+      "intended_example": "Recompressed",
+      "occasion": "Lake morning",
+      "sha256": "692c618d0de4a2dabeddd3fbc8ca3e617eaddd6efdaa3673faae614ced1b0d90"
+    },
+    {
+      "file": "04-lake-resized.jpg",
+      "label": "Same view, smaller file",
+      "intended_example": "Resized",
+      "occasion": "Lake morning",
+      "sha256": "211861906a52a6bcf6af09a6f1770a40c877e57c18cfab033e1edca726cd444e"
+    },
+    {
+      "file": "05-cafe-sharp.jpg",
+      "label": "Sharp original",
+      "intended_example": "Sharp",
+      "occasion": "Cafe afternoon",
+      "sha256": "6c2838b5e9bbfd56ce68571c9dfbc0f0c7129fda80628f882fb306ed140912d8"
+    },
+    {
+      "file": "06-cafe-blurred.jpg",
+      "label": "Missed focus",
+      "intended_example": "Blurred",
+      "occasion": "Cafe afternoon",
+      "sha256": "a108eace936757aab9eca750d17be10f8015926d38be03f7fc4da5879788989c"
+    },
+    {
+      "file": "07-cafe-dark.jpg",
+      "label": "Too dark",
+      "intended_example": "Underexposed",
+      "occasion": "Cafe afternoon",
+      "sha256": "0ef031bdd022f740e64bf45b08e3209306388dd671c7ea32edf71b79153d2f89"
+    },
+    {
+      "file": "08-cafe-bright.jpg",
+      "label": "Too bright",
+      "intended_example": "Overexposed",
+      "occasion": "Cafe afternoon",
+      "sha256": "9502b23afdda6cbd63ac5c8fe7665c6740e359471afad2e9cb1e3bdf081bb62c"
+    },
+    {
+      "file": "09-cafe-resized.jpg",
+      "label": "Sharp, smaller file",
+      "intended_example": "Resized",
+      "occasion": "Cafe afternoon",
+      "sha256": "b8a9a9eaa71c54f9011769a0082c8027576c878570d9533c4288d6bf0e233cbc"
+    },
+    {
+      "file": "10-dog-burst-1.jpg",
+      "label": "Burst frame 1",
+      "intended_example": "Burst frame",
+      "occasion": "Park run",
+      "sha256": "faea1d79cb9f12b3213f316b51c3221317453d0a0bf2b1e34d77f9d4bd022339"
+    },
+    {
+      "file": "11-dog-burst-2.jpg",
+      "label": "Burst frame 2",
+      "intended_example": "Burst frame",
+      "occasion": "Park run",
+      "sha256": "c75d5e97cf31e0d478891d2238f0c4223f56ef0d4539f9bb41d068e21520e04a"
+    },
+    {
+      "file": "12-dog-burst-3.jpg",
+      "label": "Burst frame 3",
+      "intended_example": "Burst frame",
+      "occasion": "Park run",
+      "sha256": "10331c49a3bcdd61d04cfbaf9b94f1af113c3c4ceacda8910c12a40f713556a6"
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "Spot the quality differences",
+      "note": "Compare latte-art edges, croissant flakes and wood grain. Blur removes detail; exposure hides or clips it.",
+      "files": [
+        "05-cafe-sharp.jpg",
+        "06-cafe-blurred.jpg",
+        "07-cafe-dark.jpg",
+        "08-cafe-bright.jpg"
+      ],
+      "reference": "05-cafe-sharp.jpg"
+    },
+    {
+      "name": "Identical-looking photos, different files",
+      "note": "Compare the red canoe, dock and mountains. Exact copies look identical; compressed/resized files can too.",
+      "files": [
+        "01-lake-original.jpg",
+        "02-lake-exact-copy.jpg",
+        "03-lake-recompressed.jpg",
+        "04-lake-resized.jpg"
+      ],
+      "reference": "01-lake-original.jpg"
+    },
+    {
+      "name": "A burst is a changing moment",
+      "note": "Compare the dog's paws and stride. These synthetic frames depict a changing moment, not identical copies.",
+      "files": [
+        "10-dog-burst-1.jpg",
+        "11-dog-burst-2.jpg",
+        "12-dog-burst-3.jpg"
+      ],
+      "reference": "10-dog-burst-1.jpg"
+    }
   ]
 }

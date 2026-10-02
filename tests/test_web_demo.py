@@ -182,6 +182,13 @@ def test_web_ui_startup_demo_all_views_cleanup_and_embed(monkeypatch):
     assert not app.exception
     session = app.session_state["demo_session"]
     assert len(session.photos) == 12
+    assert any(h.value == "See the difference for yourself" for h in app.subheader)
+    app.selectbox(key="sample-choice-0").set_value("07-cafe-dark.jpg").run()
+    assert any("underexposure" in c.value for c in app.caption)
+    app.selectbox(key="sample-category").set_value(1).run()
+    assert any("exact duplicate" in m.value for m in app.markdown)
+    app.selectbox(key="sample-category").set_value(2).run()
+    assert any("burst group" in m.value for m in app.markdown)
     for view in ("Review", "Events", "Best Photos", "Preferences", "Export"):
         app.segmented_control[0].set_value(view).run()
         assert not app.exception
@@ -264,3 +271,54 @@ def test_bulk_demo_preflight_and_model_status(tmp_path):
     assert not any(s["installed"] for s in model_status(cache).values())
     (cache.root / "models/mobilenet.pt").write_bytes(b"invalid checkpoint")
     assert "mismatch" in model_status(cache)["mobilenet"]["status"].lower()
+
+
+def test_photographic_samples_have_clear_measured_quality_differences():
+    session = DemoSession()
+    add_sources(session, bundled_sources())
+    quality = {p.filename: p.quality for p in session.photos}
+    sharp = quality["05-cafe-sharp.jpg"]
+    blur = quality["06-cafe-blurred.jpg"]
+    dark = quality["07-cafe-dark.jpg"]
+    bright = quality["08-cafe-bright.jpg"]
+    assert sharp["raw"]["laplacian_variance"] > 20 * blur["raw"]["laplacian_variance"]
+    assert dark["raw"]["underexposure_fraction"] > 0.5
+    assert bright["raw"]["overexposure_fraction"] > 0.35
+    assert not sharp["warnings"]
+    for defect, warning in (
+        (blur, "low_sharpness"),
+        (dark, "underexposure"),
+        (bright, "overexposure"),
+    ):
+        assert warning in defect["warnings"]
+        assert sharp["technical_quality_v1"] > defect["technical_quality_v1"]
+    assert all(len(blob) <= MAX_THUMBNAIL_BYTES for blob in session.thumbnails.values())
+    assert session.total_upload_bytes < MAX_TOTAL_BYTES
+    session.clear()
+
+
+def test_photographic_demo_packaging_is_reproducible_and_exact_copy_is_exact(tmp_path):
+    import importlib.util
+    import json
+    import shutil
+
+    spec = importlib.util.spec_from_file_location(
+        "demo_packaging", Path("benchmarks/generate_public_demo.py").resolve()
+    )
+    generator = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(generator)
+    generator.ROOT = tmp_path
+    shutil.copytree(Path("assets/demo/sources"), tmp_path / "sources")
+    generator.main()
+    before = {p.name: p.read_bytes() for p in tmp_path.glob("*.jpg")}
+    generator.main()
+    assert before == {p.name: p.read_bytes() for p in tmp_path.glob("*.jpg")}
+    assert before["01-lake-original.jpg"] == before["02-lake-exact-copy.jpg"]
+    assert before["01-lake-original.jpg"] != before["03-lake-recompressed.jpg"]
+    manifest = json.loads((tmp_path / "manifest.json").read_text())
+    assert manifest["version"] == "public_demo_v2" and len(manifest["files"]) == 12
+    assert len(manifest["comparisons"]) == 3
+    for filename in manifest["files"]:
+        image, _ = UploadedImageSource(filename, before[filename]).read()
+        assert max(image.size) <= DECODE_EDGE
+        image.close()

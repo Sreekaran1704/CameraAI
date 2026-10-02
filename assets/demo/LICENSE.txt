@@ -1,3 +1,4 @@
-PhotoCull generated demo illustrations are dedicated to the public domain under CC0 1.0.
-No personal or third-party photographs are included.
+PhotoCull synthetic photographic demo renders/edits are dedicated under CC0 1.0.
+Created with the built-in OpenAI image generator; no personal or third-party photos.
+Scenes and timestamps are synthetic teaching examples, not recorded real occasions.
 https://creativecommons.org/publicdomain/zero/1.0/

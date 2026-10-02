@@ -43,7 +43,14 @@ def child(mode, count):
         from photocull.ui.style import bundled_sources
         from photocull.web_session import DemoSession, add_sources
     imports = time.perf_counter() - started
-    result = {"mode": mode, "records": count, "cold_import_seconds": imports}
+    result = {
+        "mode": mode,
+        "records": count,
+        "cold_import_seconds": imports,
+        "demo_dataset_version": json.loads((ROOT / "assets/demo/manifest.json").read_text())[
+            "version"
+        ],
+    }
     if mode == "local":
         import photocull.duplicates as duplicates
         import photocull.events as events
@@ -96,7 +103,7 @@ def child(mode, count):
             result["cache_bytes"] = sum(
                 p.stat().st_size for p in (base / "cache").rglob("*") if p.is_file()
             )
-            result["scope"] = "640x400 generated JPEGs, cyclic 12-scene copies; disk cache"
+            result["scope"] = "Current bundled JPEGs, cyclic sample copies; disk cache"
     else:
         sources = bundled_sources()
         session = DemoSession()
@@ -127,7 +134,7 @@ def child(mode, count):
             result["thumbnail_bytes"] = sum(map(len, session.thumbnails.values()))
             result["cache_bytes"] = 0
             result["upload_bytes"] = session.total_upload_bytes
-            result["scope"] = "640x400 generated JPEGs; memory-only core, excludes HTTP rendering"
+            result["scope"] = "Current bundled JPEGs; memory-only core, excludes HTTP rendering"
         else:
             add_sources(session, sources)
             photos = [
